@@ -25,7 +25,7 @@ $c-blue: #6B7CFF;
 $c-light-violet: #E0E4FC;
 $c-white: #FFFFFF;
 $c-linear-gradient: linear-gradient(#373FFF, #3ACAF8);
-$c-radial-gradient: radial-gradient(#D798E1, #9BFFA5, #AED3FF, #C9D4EF, #CACFFA)
+$c-radial-gradient: radial-gradient(#D798E1, #9BFFA5, #AED3FF, #C9D4EF, #CACFFA);
 
 
 // * Transition
@@ -41,17 +41,17 @@ $large: 1920px;
 
 // !Media Queries: Examples
 
-@example scss - With a single set breakpoint
-///  @include media(">phone") { }
-///
-/// @example scss - With two set breakpoints
-///  @include media(">phone", "<=tablet") { } 
-///
-/// @example scss - With custom values
-///  @include media(">=358px", "<850px") { } 
-///
-/// @example scss - With set breakpoints with custom values
-///  @include media(">desktop", "<=1350px") { } 
+// @example scss - With a single set breakpoint
+// /  @include media(">phone") { }
+// /
+// / @example scss - With two set breakpoints
+// /  @include media(">phone", "<=tablet") { } 
+// /
+// / @example scss - With custom values
+// /  @include media(">=358px", "<850px") { } 
+// /
+// / @example scss - With set breakpoints with custom values
+// /  @include media(">desktop", "<=1350px") { } 
 
 
 

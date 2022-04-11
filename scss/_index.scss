@@ -1,5 +1,7 @@
+@import './plugins/bootstrap/bootstrap';
+@import './plugins/normalize';
 @import './fonts';
-@import './variables.scss';
+@import './variables';
 @import './mixins';
 @import './elements/index';
 @import './components/index';
