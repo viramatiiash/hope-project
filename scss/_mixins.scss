@@ -18,9 +18,9 @@
 @mixin font-face($fontname, $fontfile, $fontweight: normal, $fontstyle: normal) {
 	@font-face {
 		font-family: $fontname;
-		src: url('./assets/fonts/' + $fontfile + '.eot');
-		src: url('./assets/fonts/' + $fontfile + '.woff') format('woff'),
-				url('./assets/fonts/' + $fontfile + '.ttf') format('truetype');
+		src: url('../assets/fonts/' + $fontfile + '.eot');
+		src: url('../assets/fonts/' + $fontfile + '.woff') format('woff'),
+				url('../assets/fonts/' + $fontfile + '.ttf') format('truetype');
 		font-weight: $fontweight;
 		font-style: $fontstyle;
 	}

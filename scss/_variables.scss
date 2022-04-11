@@ -1,15 +1,32 @@
 // * Font Families
-$ff-main: ;
+$ff-main: 'Roboto', sans-serif;
 
 
 // * Font Sizes
+// Text font sizes
 $fs-base: 16px;
-
+$fs-text-large: 18px;
+$fs-label: 24px;
+// Headings font sizes
+$fs-heading-one: 56px;
+$fs-heading-two: 48px;
+$fs-heading-three: 36px;
+$fs-heading-four: $fs-label;
+$fs-heading-five: $fs-text-large;
+$fs-heading-six: $fs-base;
 
 // * Font Weights
-
+$fw-base: normal;
+$fw-bold: bold;
 
 // * Colors
+$c-primary: #1D2130;
+$c-blue: #6B7CFF;
+$c-light-violet: #E0E4FC;
+$c-white: #FFFFFF;
+$c-linear-gradient: linear-gradient(#373FFF, #3ACAF8);
+$c-radial-gradient: radial-gradient(#D798E1, #9BFFA5, #AED3FF, #C9D4EF, #CACFFA)
+
 
 // * Transition
 $t-normal: .35s cubic-bezier(.4,0,.2,1);
