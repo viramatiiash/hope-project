@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  text-decoration: none;
+  font-size: medium;
+  font-weight: normal;
+  line-height: normal;
+}
+
+img {
+  width: 100%;
+}
+
+svg {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  // padding: 0 40px;
+}

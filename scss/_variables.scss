@@ -1,0 +1,41 @@
+// * Font Families
+$ff-main: ;
+
+
+// * Font Sizes
+$fs-base: 16px;
+
+
+// * Font Weights
+
+
+// * Colors
+
+// * Transition
+$t-normal: .35s cubic-bezier(.4,0,.2,1);
+
+// * Media Queries: Breakpoints
+$small: 320px;
+$phone: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+$screen: 1400px;
+$large: 1920px;
+
+// !Media Queries: Examples
+
+@example scss - With a single set breakpoint
+///  @include media(">phone") { }
+///
+/// @example scss - With two set breakpoints
+///  @include media(">phone", "<=tablet") { } 
+///
+/// @example scss - With custom values
+///  @include media(">=358px", "<850px") { } 
+///
+/// @example scss - With set breakpoints with custom values
+///  @include media(">desktop", "<=1350px") { } 
+
+
+
+

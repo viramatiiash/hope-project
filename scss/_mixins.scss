@@ -1,0 +1,27 @@
+// * Positioning
+@mixin absolute {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@mixin absolutelyCenter {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+// ! Fonts
+@mixin font-face($fontname, $fontfile, $fontweight: normal, $fontstyle: normal) {
+	@font-face {
+		font-family: $fontname;
+		src: url('./assets/fonts/' + $fontfile + '.eot');
+		src: url('./assets/fonts/' + $fontfile + '.woff') format('woff'),
+				url('./assets/fonts/' + $fontfile + '.ttf') format('truetype');
+		font-weight: $fontweight;
+		font-style: $fontstyle;
+	}
+};

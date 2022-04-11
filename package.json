@@ -1,0 +1,25 @@
+{
+  "name": "hope-project",
+  "version": "1.0.0",
+  "description": "It's the project for the first module of beetroot academy studying",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "scripts": {
+    "test": "bang"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viramatiiash/hope-project.git"
+  },
+  "keywords": [
+    "hope"
+  ],
+  "author": "Vira Matiiash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viramatiiash/hope-project/issues"
+  },
+  "homepage": "https://github.com/viramatiiash/hope-project#readme"
+}
