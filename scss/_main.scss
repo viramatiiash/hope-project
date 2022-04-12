@@ -4,7 +4,11 @@
   padding: 0;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   text-decoration: none;
   font-size: medium;
   font-weight: normal;
@@ -29,5 +33,7 @@ li {
 }
 
 .container {
-  // padding: 0 40px;
+  padding: 0 20px;
+  // max-width: 1240px; // TODO: Vira to check
+  // margin: 0 auto; // TODO: Vira to check
 }
