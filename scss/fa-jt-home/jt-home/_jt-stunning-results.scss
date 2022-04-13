@@ -1,0 +1,63 @@
+.jt-stunning-results {
+  margin-bottom: 130px; // * To push and separate next block down from this one
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &___title {
+    font-size: $fs-heading-two;
+    font-weight: $fw-bold;
+    text-align: center;
+    line-height: 120%;
+    max-width: 670px;
+    margin-bottom: 50px;
+  }
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  //   &__card {
+  //   }
+}
+
+.jt-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px;
+  max-width: 400px;
+  margin-right: 25px;
+  line-height: 150%;
+  text-align: center;
+  border: 2px solid #d6e7ff; // * TODO: ask Vira to add color
+  border-radius: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__description {
+    font-weight: $fw-bold;
+    margin-bottom: 25px;
+  }
+
+  &__image {
+    margin-bottom: 10px;
+    max-width: 55px;
+  }
+
+  &__title {
+    font-size: $fs-heading-five;
+    line-height: 150%;
+    font-weight: $fw-bold;
+  }
+
+  &__subtitle {
+    font-size: 12px; // * TODO: ask Vira to add
+  }
+}
