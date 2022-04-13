@@ -723,6 +723,9 @@ li {
   margin: 0 auto;
 }
 
+.jt-analyze-sales {
+  margin-bottom: 130px;
+}
 .jt-analyze-sales__wrapper {
   display: flex;
 }
