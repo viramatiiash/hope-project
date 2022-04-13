@@ -1,0 +1,9 @@
+.input {
+  padding: 15px 40px;
+  border-radius: 15px;
+  border: none;
+  &--black {
+    background-color: $c-input-dark;
+    color: $c-white;
+  }
+}
