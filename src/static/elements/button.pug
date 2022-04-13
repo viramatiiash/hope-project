@@ -1,0 +1,6 @@
+mixin button(args)
+  - var type = args.type || 'button'
+  - var text = args.text || 'Default Text'
+
+  button(type=type, class!=attributes.class)
+    span= text
