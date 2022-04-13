@@ -685,12 +685,10 @@ template {
   padding: 0;
 }
 
-
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
-
 
 h1,
 h2,
@@ -728,11 +726,5 @@ li {
 }
 
 .header {
-  background-color: red;
-  font-size: 100px;
-}
-
-.header {
-  font-family: "Roboto", sans-serif;
-  background-color: blue;
+  background-color: linear-gradient(#373FFF, #3ACAF8);
 }/*# sourceMappingURL=index.css.map */
