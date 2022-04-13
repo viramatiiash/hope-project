@@ -1,0 +1,78 @@
+.jt-analyze-sales {
+  margin-bottom: 130px; // * To push and separate next block down from this one
+
+  &__wrapper {
+    display: flex;
+    // align-items: center; // * TODO: подумать над будущим развитием контента
+  }
+
+  &__uptitle {
+    // color: $c-radial-gradient; //* TODO: Ask Vira to add
+    color: $c-blue;
+    font-size: $fs-base;
+    font-weight: bold;
+    line-height: 120%;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-size: $fs-heading-two;
+    font-weight: $fw-bold;
+    line-height: 120%;
+    margin-bottom: 30px;
+  }
+
+  &__description {
+    line-height: 150%;
+  }
+
+  &__block {
+    max-width: 570px;
+    margin-right: 140px;
+  }
+
+  &__block:last-child {
+    margin-right: 0;
+  }
+
+  &__item {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+
+  &__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.item {
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 72px;
+    min-width: 72px;
+    height: 72px;
+    background-color: #f4f5f7; // * TODO: add to variables @VIRA
+    border-radius: 50%;
+    margin-right: 30px;
+  }
+
+  &__image {
+    max-width: 35px;
+    max-height: 35px;
+  }
+
+  &__title {
+    font-size: $fs-heading-four;
+    font-weight: $fw-bold;
+    line-height: 120%;
+    margin-bottom: 10px;
+  }
+
+  &__description {
+    line-height: 150%;
+  }
+}
+
