@@ -1,11 +1,10 @@
-include ./src/index
+extends ./src/static/extends/layout
 
-doctype html
-html(lang="en")
-  head
-    meta(charset="UTF-8")
-    meta(http-equiv="X-UA-Compatible", content="IE=edge")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    title Hope
-  body 
-    
+block style 
+  link(rel="stylesheet", href="./index.css")
+block title 
+  title Big Hope
+block content
+  include ./src/fa-jt-home/home
+
+

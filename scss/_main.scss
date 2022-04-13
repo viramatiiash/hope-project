@@ -4,11 +4,21 @@
   padding: 0;
 }
 
-h1, h2, h3, h4, h5 {
+body {
+  font-family: $ff-main;
+  font-size: $fs-base;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
   text-decoration: none;
   font-size: medium;
   font-weight: normal;
   line-height: normal;
+  margin: 0;
 }
 
 img {
@@ -29,5 +39,9 @@ li {
 }
 
 .container {
-  // padding: 0 40px;
+  // max-width: 1240px; // TODO: Vira to check
+  // margin: 0 auto; // TODO: Vira to check
+  max-width: 1320px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
