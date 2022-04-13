@@ -1,0 +1,9 @@
+.mt-content-img {
+  &__wraper {
+    @include flexSpaceBetween
+  }
+  &__image {
+    width: 100%;
+    max-width: 470px;
+  }
+}
