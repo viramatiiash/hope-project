@@ -1,0 +1,53 @@
+.jt-features {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 128px;
+  }
+
+  &__title {
+    font-size: $fs-heading-two;
+    font-weight: $fw-bold;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 120%;
+    max-width: 670px;
+  }
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px;
+    background-color: #fdf0ff; // * TODO: Vira to add color
+    border-radius: 15px;
+  }
+}
+
+.jt-block {
+  border-right: 2px solid $c-light-violet;
+  padding: 0 25px;
+  &:first-child {
+    padding-left: 0;
+  }
+  &:last-child {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  &__image {
+    width: 55px;
+    margin-bottom: 25px;
+  }
+
+  &__title {
+    font-size: $fs-heading-three;
+    font-weight: $fw-bold;
+    margin-bottom: 15px;
+  }
+
+  &__description {
+    font-size: $fs-text-large;
+    line-height: 150%;
+  }
+}
