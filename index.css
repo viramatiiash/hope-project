@@ -843,6 +843,46 @@ template {
   line-height: 150%;
 }
 
+.ready-to-grow__blur {
+  width: 100%;
+  position: absolute;
+  z-index: -999;
+  max-height: 380px;
+  opacity: 0.9;
+}
+
+.ready-to-grow {
+  background: transparent;
+}
+.ready-to-grow__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 128px;
+}
+.ready-to-grow__title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 120%;
+  margin-bottom: 30px;
+  max-width: 700px;
+  text-align: center;
+}
+.ready-to-grow__description {
+  margin-bottom: 30px;
+}
+.ready-to-grow__button {
+  background-color: #1D2130;
+}
+.ready-to-grow__button--text {
+  color: #FFFFFF;
+  font-weight: bold;
+  line-height: 150%;
+}
+.ready-to-grow__button:hover {
+  background-color: #313852;
+}
+
 .header {
   background-color: #FFFFFF;
   width: 100%;
