@@ -1,14 +1,17 @@
 extends ./src/static/extends/layout
 
 block style 
-  link(rel="stylesheet", href="./index.css")
+  link(rel="stylesheet" href="./index.css")
 block title 
   title Big Hope
 block content
 
   +header
   include ./src/fa-jt-home/home
-  +footer
+
+ 
+  +ready-to-grow
+
   block script
     script(src="./index.js") 
 
