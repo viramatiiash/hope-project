@@ -1,0 +1,15 @@
+.navigation {
+
+  &__list {
+    @include flexSpaceBetween;
+  }
+
+  &__link {
+    cursor: pointer;
+    margin-right: 25px;
+    font-family: $ff-main;
+    font-size: $fs-base;
+    color: $c-primary;
+    padding: 7px;
+  }
+}
