@@ -722,10 +722,16 @@ template {
   width: 100%;
   max-width: 140px;
 }
-.logo__text {
-  color: #1E1B1B;
+.logo--black {
+  fill: #1E1B1B;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+.logo--white {
+  fill: #FFFFFF;
+  font-size: 36px;
+  font-weight: 900;
   letter-spacing: 1px;
 }
 
@@ -909,6 +915,33 @@ template {
   .header__navigation {
     display: none;
   }
+}
+
+.footer {
+  background-color: #1D2130;
+}
+.footer__title {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.footer__link {
+  color: #888888;
+  font-size: 16px;
+}
+.footer__border {
+  border: 1px solid #888888;
+}
+
+.newsletter {
+  color: white;
+}
+
+.social-media__copyright {
+  color: #888888;
+  font-size: 12px;
+}
+.social-media__icon {
+  fill: #888888;
 }
 
 * {

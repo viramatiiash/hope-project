@@ -2,10 +2,17 @@
   width: 100%;
   max-width: 140px;
 
-  &__text {
-    color: $c-logo;
+  &--black {
+    fill: $c-logo;
     font-weight: $fw-black;
-    font-size: 30px;
+    font-size: $fs-heading-three;
     letter-spacing: 1px;
   }
+
+  &--white {
+    fill: $c-white;
+    font-size: $fs-heading-three;
+    font-weight: $fw-black;
+    letter-spacing: 1px;
+  } 
 }
