@@ -1,6 +1,6 @@
 mixin footer-links(title, names)
-  - const footName = "footer-block"
-  div(class= footName)
+  - const footName = "footer"
+  div(class= footName + "__block")
     h5(class= footName + "__title")= title
     each name in names
       a(class= footName + "__link" src= name.link)= name.text
