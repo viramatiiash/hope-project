@@ -1,0 +1,12 @@
+mixin footer-links(title, names)
+  - const footName = "footer-block"
+  div(class= footName)
+    h5(class= footName + "__title")= title
+    each name in names
+      a(class= footName + "__link" src= name.link)= name.text
+
+- const companyLinks = [{text: 'About us', link: './src/gs-about-us/gs-index.pug'}, {text: 'Why Choose us', link: '#'}, {text: 'Pricing', link: './src/dv-pricing/dv-index.pug'}, {text: 'Testimonial', link: '#'}]
+
+- const resources = [{text: 'Privacy Policy', link: '#'}, {text: 'Terms and Condition', link: '#'}, {text: 'Blog', link: './src/to-blog/to-index.pug'}, {text: 'Contact Us', link: './src/pi-contact/pi-index.pug'}]
+
+- const productLinks = [{text: 'Project management', link: '#'}, {text: 'Time tracker', link: '#'}, {text: 'Time schedule', link: '#'}, {text: 'Lead generate', link: '#'}, {text: 'Remote Collaboration', link: '#'}]

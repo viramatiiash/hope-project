@@ -4,6 +4,7 @@ $ff-main: 'Roboto', sans-serif;
 
 // * Font Sizes
 // Text font sizes
+$fs-job-title: 12px;
 $fs-base: 16px;
 $fs-text-large: 18px;
 $fs-label: 24px;
@@ -18,12 +19,18 @@ $fs-heading-six: $fs-base;
 // * Font Weights
 $fw-base: normal;
 $fw-bold: bold;
+$fw-black: 900;
 
 // * Colors
 $c-primary: #1D2130;
+$c-input-dark: #2B2E3C;
+$c-button-dark: #313852;
 $c-blue: #6B7CFF;
 $c-light-violet: #E0E4FC;
+$c-logo: #1E1B1B;
 $c-white: #FFFFFF;
+$c-icon-bg: #F4F5F7;
+$c-arrow-bg: #FFACAC;
 $c-linear-gradient: linear-gradient(#373FFF, #3ACAF8);
 $c-radial-gradient: radial-gradient(#D798E1, #9BFFA5, #AED3FF, #C9D4EF, #CACFFA);
 

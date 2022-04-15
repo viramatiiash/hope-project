@@ -7,6 +7,7 @@
     z-index: 2;
     @media (max-width: $desktop) {
       padding-top: 0;
+      margin-right: 0;
     }
   }  
   &__wraper {
@@ -94,6 +95,7 @@
 
     @media (max-width: $desktop) {
       font-size: $fs-heading-three;
+      line-height: 1.2;
     }
   }
 

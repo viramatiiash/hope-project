@@ -1,0 +1,22 @@
+.navigation {
+  &__list {
+    @include flexSpaceBetween;
+  }
+
+  &__link {
+    cursor: pointer;
+    margin-right: 25px;
+    font-family: $ff-main;
+    font-size: $fs-base;
+    color: $c-primary;
+    padding: 7px;
+  }
+
+  &__item {
+    transition: all 0.35s ease-out;
+  }
+
+  &__item:hover {
+    transform: scale(1.1, 1.1);
+  }
+}

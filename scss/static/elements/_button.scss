@@ -1,0 +1,21 @@
+.button {
+  padding: 15px 40px;
+  border-radius: 15px;
+  border: none;
+  &--black {
+    background-color: $c-primary;
+    color: $c-white;
+    &:hover {
+      background-color: $c-button-dark;
+    }
+  }
+  &--white {
+    background-color: $c-white;
+    color: $c-primary;
+    border: 1px solid $c-light-violet;
+    &:hover {
+      background-color: $c-primary;
+      color: $c-white;
+    }
+  }
+}

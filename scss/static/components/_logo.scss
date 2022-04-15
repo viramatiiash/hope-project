@@ -1,0 +1,11 @@
+.logo {
+  width: 100%;
+  max-width: 140px;
+
+  &__text {
+    color: $c-logo;
+    font-weight: $fw-black;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+}

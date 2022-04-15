@@ -1,0 +1,8 @@
+mixin header 
+  header.header
+    .header__wrapper.container
+      +logo
+      .header__navigation
+        +navigation(values)
+        +button({text:'Free trial'})(class='button button--black')
+      +burger

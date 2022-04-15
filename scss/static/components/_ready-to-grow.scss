@@ -1,0 +1,45 @@
+.ready-to-grow__blur {
+  width: 100%;
+  position: absolute;
+  z-index: -999;
+  max-height: 380px;
+  opacity: 0.9;
+}
+
+.ready-to-grow {
+  background: transparent;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 128px;
+  }
+
+  &__title {
+    font-size: $fs-heading-two;
+    font-weight: $fw-bold;
+    line-height: 120%;
+    margin-bottom: 30px;
+    max-width: 700px;
+    text-align: center;
+  }
+
+  &__description {
+    margin-bottom: 30px;
+  }
+
+  &__button {
+    background-color: $c-primary;
+
+    &--text {
+      color: $c-white;
+      font-weight: $fw-bold;
+      line-height: 150%;
+    }
+
+    &:hover {
+      background-color: $c-button-dark;
+    }
+  }
+}
