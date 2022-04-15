@@ -1,4 +1,3 @@
-mixin logo(name)
-  div(class= name)
-    span(class= name + '__text')
-      |{finsweet
+mixin logo(name, id)
+  svg(class='logo logo--' + name)
+    use(xlink:href='../../../assets/icon/base.svg#icon-' + id)

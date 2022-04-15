@@ -1,8 +1,9 @@
 mixin header 
+  - const navigationList = [{text: 'Home', link: '#'}, {text: 'Product', link: './src/sa-mt-product/product.pug'}, {text: 'Pricing', link: './src/dv-pricing/dv-index.pug'}, {text: 'About us', link: './src/gs-about-us/gs-index.pug'}, {text: 'Blog', link: './src/to-blog/to-index.pug'}, {text: 'Contact', link: './src/pi-contact/pi-index.pug'}]
   header.header
     .header__wrapper.container
-      +logo
+      +logo("black", "Logo")
       .header__navigation
-        +navigation(values)
+        +navigation(navigationList)
         +button({text:'Free trial'})(class='button button--black')
       +burger

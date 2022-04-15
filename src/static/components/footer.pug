@@ -1,21 +1,22 @@
 mixin footer
   - const footPref = "footer"
-  div(class= footPref + '__wrapper') 
-    +footer-block
-    div(class= footPref + '__subscribe') 
-      +logo('logo logo--white')
-      div(class= footPref + '__newsletter-block')
-      label.newsletter(for='newsletter-input') Subscribe to our Newsletter
-        input(type="email" name='newsletter-input' id='newsletter-input' placeholder='Enter your Email')
-        +button({text:'Subscribe', type: "Submit"})(class='button button--white')
-        div(class= footPref + "__border")
-        .social-media 
-          .social-media__copyright-container 
-            .media__copyright © Copyright Finsweet 2022
-          .social-media__networks-container 
-            //- +icon(Facebook)
-            //- +icon(Twitter)
-            //- +icon(Instagram)
-            //- +icon(LinkedIn)
+  footer(class= footPref)
+    div(class= footPref + '__wrapper') 
+      +footer-block
+      div(class= footPref + '__subscribe') 
+        +logo("white", "Logo")
+        div(class= footPref + '__newsletter-block')
+        label.newsletter(for='newsletter-input') Subscribe to our Newsletter
+          input(type="email" name='newsletter-input' id='newsletter-input' placeholder='Enter your Email')
+          +button({text:'Subscribe', type: "Submit"})(class='button button--white')
+    div(class= footPref + "__border")
+    .social-media 
+      .social-media__copyright-container 
+        .social-media__copyright © Copyright Finsweet 2022
+      .social-media__networks-container 
+        +iconFooter('Facebook')
+        +iconFooter('Twitter')
+        +iconFooter('Instagram')
+        +iconFooter('LinkedIn')
 
 

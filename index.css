@@ -1,11 +1,5 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-/* Document
-   ========================================================================== */
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+<<<<<<< HEAD
 html {
   line-height: 1.15;
   /* 1 */
@@ -685,6 +679,8 @@ template {
   display: none;
 }
 
+=======
+>>>>>>> main
 .input {
   padding: 15px 40px;
   border-radius: 15px;
@@ -735,11 +731,22 @@ template {
   width: 100%;
   max-width: 140px;
 }
+<<<<<<< HEAD
 
 .logo__text {
   color: #1E1B1B;
+=======
+.logo--black {
+  fill: #1E1B1B;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+.logo--white {
+  fill: #FFFFFF;
+  font-size: 36px;
+>>>>>>> main
+  font-weight: 900;
   letter-spacing: 1px;
 }
 
@@ -1003,6 +1010,33 @@ template {
   }
 }
 
+.footer {
+  background-color: #1D2130;
+}
+.footer__title {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.footer__link {
+  color: #888888;
+  font-size: 16px;
+}
+.footer__border {
+  border: 1px solid #888888;
+}
+
+.newsletter {
+  color: white;
+}
+
+.social-media__copyright {
+  color: #888888;
+  font-size: 12px;
+}
+.social-media__icon {
+  fill: #888888;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1051,6 +1085,7 @@ li {
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .jt-analyze-sales {
   margin-bottom: 130px;
 }
@@ -1376,3 +1411,6 @@ li {
   background-color: linear-gradient(#373FFF, #3ACAF8);
 }
 /*# sourceMappingURL=index.css.map */
+=======
+/*# sourceMappingURL=index.css.map */
+>>>>>>> main
