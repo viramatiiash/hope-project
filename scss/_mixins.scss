@@ -21,15 +21,32 @@
   align-items: center;
 }
 
+@mixin flexSpaceAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 @mixin flexHorizontalCenter {
 display: flex;
 justify-content: center;
+}
+
+@mixin flexHorizontalSpace {
+display: flex;
+justify-content: space-between;
 }
 
 @mixin flexVerticalCenter {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@mixin flexVerticalSpace {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @mixin flexAbsoluteCenter {

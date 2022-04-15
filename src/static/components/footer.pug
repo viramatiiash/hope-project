@@ -1,7 +1,7 @@
 mixin footer
   - const footPref = "footer"
   footer(class= footPref)
-    div(class= footPref + '__wrapper') 
+    div.container(class= footPref + '__wrapper')
       +footer-block
       div(class= footPref + '__subscribe') 
         +logo("white", "Logo")
