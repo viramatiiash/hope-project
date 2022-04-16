@@ -1,6 +1,11 @@
 .logo {
   width: 100%;
   max-width: 140px;
+  height: 32px;
+
+  &__container {
+    margin-bottom: 32px;
+  }
 
   &--black {
     fill: $c-logo;
