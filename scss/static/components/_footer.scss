@@ -13,7 +13,8 @@
     @include flexHorizontalSpace;
     width: 100%;
     height: 180px;
-    max-width: 610px;
+    max-width: 740px;
+    margin-right: 64px;
   }
 
   &__block {
@@ -32,6 +33,13 @@
     cursor: pointer;
   }
 
+  &__subscribe {
+    width: 100%;
+    max-width: 366px;
+    max-height: 163px;
+    @include flexVerticalSpace;
+  }
+
   &__border {
     border: 1px solid $c-copyright;
     max-width: 1280px;
@@ -40,7 +48,32 @@
 }
 
 .newsletter {
-  color: $c-white;
+  @include flexVerticalSpace;
+
+  &__name {
+    color: $c-white;
+    margin-bottom: 16px;
+  }
+
+  &__input-container {
+    display: flex;
+    position: relative;
+  }
+
+  &__input {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 22px;
+    padding-right: 152px;
+    border-radius: 10px;
+    background-color: $c-input-dark;
+    border: none;
+  }
+
+  &__button {
+    position: absolute;
+    transform: translateX(160%);
+  }
 }
 
 .social-media {
