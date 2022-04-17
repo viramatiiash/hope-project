@@ -400,4 +400,143 @@ li {
   margin: 0 auto;
 }
 
+.jt-analyze-sales__wrapper {
+  margin-top: 130px;
+  margin-bottom: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1024px) {
+  .jt-analyze-sales__wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+.jt-analyze-sales__uptitle {
+  background: linear-gradient(#373FFF, #3ACAF8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 120%;
+  margin-bottom: 20px;
+  text-align: left;
+}
+@media (max-width: 1024px) {
+  .jt-analyze-sales__uptitle {
+    text-align: center;
+  }
+}
+.jt-analyze-sales__title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+@media (max-width: 480px) {
+  .jt-analyze-sales__title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 480px) {
+  .jt-analyze-sales__title {
+    font-size: 24px;
+  }
+}
+.jt-analyze-sales__description {
+  line-height: 150%;
+}
+@media (max-width: 1024px) {
+  .jt-analyze-sales__description {
+    margin-bottom: 30px;
+  }
+}
+.jt-analyze-sales__block {
+  max-width: 550px;
+}
+@media (max-width: 1024px) {
+  .jt-analyze-sales__block {
+    max-width: fit-content;
+  }
+}
+@media (max-width: 1024px) {
+  .jt-analyze-sales__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .jt-analyze-sales__list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.jt-analyze-sales__block:last-child {
+  margin-right: 0;
+}
+.jt-analyze-sales__item {
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+}
+.jt-analyze-sales__item:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 1024px) {
+  .jt-analyze-sales__item {
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+  .jt-analyze-sales__item:last-child {
+    margin-right: 0;
+  }
+}
+@media (max-width: 1024px) and (max-width: 768px) {
+  .jt-analyze-sales__item {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .jt-analyze-sales__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.item__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 72px;
+  min-width: 72px;
+  height: 72px;
+  background-color: #F4F5F7;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+@media (max-width: 1024px) {
+  .item__icon {
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+}
+.item__image {
+  max-width: 35px;
+  max-height: 35px;
+}
+.item__title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 120%;
+  margin-bottom: 10px;
+}
+@media (max-width: 480px) {
+  .item__title {
+    font-size: 18px;
+  }
+}
+.item__description {
+  line-height: 150%;
+}
+
 /*# sourceMappingURL=index.css.map */
