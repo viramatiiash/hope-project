@@ -217,6 +217,11 @@
   font-size: 18px;
   line-height: 150%;
 }
+@media (max-width: 1024px) {
+  .jt-block__description {
+    margin-bottom: 25px;
+  }
+}
 
 .ready-to-grow__blur {
   width: 100%;

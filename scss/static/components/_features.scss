@@ -87,5 +87,9 @@
   &__description {
     font-size: $fs-text-large;
     line-height: 150%;
+
+    @media (max-width: $desktop) {
+      margin-bottom: 25px;
+    }
   }
 }
