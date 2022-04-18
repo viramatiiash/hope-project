@@ -457,6 +457,11 @@ li {
   margin: 0 auto;
 }
 
+.fa-best-software__wrapper {
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+
 .jt-analyze-sales__wrapper {
   margin-top: 130px;
   margin-bottom: 130px;
