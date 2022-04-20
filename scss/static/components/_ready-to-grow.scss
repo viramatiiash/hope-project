@@ -4,8 +4,9 @@
   background-position: center;
   background-position-y: -80px;
 
-  @media (max-width: $tablet) {
+  @media (max-width: $phone) {
     text-align: center;
+    padding-bottom: 100px;
   }
 
   &__wrapper {
