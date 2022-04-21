@@ -179,6 +179,10 @@
     padding: 32px;
   }
 }
+.jt-features__icon {
+  width: 40px;
+  height: 40px;
+}
 
 .jt-block {
   border-right: 2px solid #E0E4FC;
@@ -240,14 +244,13 @@
 
 .ready-to-grow {
   padding-bottom: 128px;
-  background-image: url(./../../../assets/ready-to-grow-blur.png);
-  background-position: center;
-  background-position-y: -80px;
+  background: radial-gradient(ellipse at bottom, rgb(207, 217, 255), rgb(234, 255, 239), rgb(255, 255, 255), rgb(255, 255, 255));
 }
 @media (max-width: 480px) {
   .ready-to-grow {
     text-align: center;
     padding-bottom: 100px;
+    background: radial-gradient(ellipse at bottom, rgb(228, 233, 255), rgb(239, 255, 243), rgb(255, 255, 255), rgb(255, 255, 255));
   }
 }
 .ready-to-grow__wrapper {
@@ -275,6 +278,11 @@
 }
 .ready-to-grow__description {
   margin-bottom: 30px;
+}
+@media (max-width: 1024px) {
+  .ready-to-grow__description {
+    text-align: center;
+  }
 }
 .ready-to-grow__button {
   background-color: #1D2130;
@@ -619,6 +627,11 @@
   .jt-analyze-sales__item:last-child {
     margin-bottom: 0;
   }
+}
+.jt-analyze-sales__icon {
+  width: 30px;
+  height: fit-content;
+  margin-left: 5px;
 }
 
 .item__icon {

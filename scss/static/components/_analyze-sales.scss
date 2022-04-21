@@ -108,6 +108,12 @@
       }
     }
   }
+
+  &__icon {
+    width: 30px;
+    height: fit-content;
+    margin-left: 5px;
+  }
 }
 
 .item {
