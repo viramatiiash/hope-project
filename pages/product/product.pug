@@ -1,8 +1,10 @@
 extends ../../src/static/extends/layout
+include ./mt-product/mt-data-driven
 
 
 block style 
-  link(rel="stylesheet" href="../index.css")
+  link(rel="stylesheet" href="/index.css")
+  link(rel="stylesheet" href="/pages/product/product.css")
 
 
 
@@ -16,5 +18,34 @@ block title
 
 
 block body
+  .container
+    +mt-data-driven({
+      class:'mt-content-img__wraper-shadowLeft',
+      subtitle:'Marketing insights',
+      title:'Data-driven client feedback',
+      text:'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.',
+      img:'/pages/product/mt-product/mt-assets/mt-data-driven.jpg'
+    })
+    +mt-data-driven({
+      class:'mt-content-img__wraper-reverse',
+      subtitle:'Time tracker',
+      title:'Track your project performance',
+      text:'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.',
+      img:'/pages/product/mt-product/mt-assets/mt-track-project.jpg'
+    })
+    +mt-data-driven({
+      class:'mt-content-img__wraper-shadowRight',
+      subtitle:'Lead Generation',
+      title:'More leads that convert',
+      text:'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.',
+      img:'/pages/product/mt-product/mt-assets/mt-more-leads.png'
+    })
+    +mt-data-driven({
+      class:'mt-content-img__wraper-reverse',
+      subtitle:'Remote teams',
+      title:'Real-time collaboration',
+      text:'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.',
+      img:'/pages/product/mt-product/mt-assets/mt-real-time.jpg'
+    })
 
-  +features
+  //- +features
