@@ -1,9 +1,12 @@
 .jt-features {
   &__wrapper {
+    margin-bottom: 128px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 128px;
+    @media (max-width: $phone) {
+      margin-bottom: 64px;
+    }
   }
 
   &__title {
@@ -13,6 +16,18 @@
     text-align: center;
     line-height: 120%;
     max-width: 670px;
+
+    @media (max-width: $desktop) {
+      margin-bottom: 25px;
+    }
+
+    @media (max-width: $tablet) {
+      font-size: $fs-heading-three;
+    }
+
+    @media (max-width: $phone) {
+      font-size: $fs-heading-four;
+    }
   }
 
   &__block {
@@ -21,6 +36,19 @@
     padding: 64px;
     background-color: #fdf0ff; // * TODO: Vira to add color
     border-radius: 15px;
+
+    @media (max-width: $desktop) {
+      flex-direction: column;
+    }
+
+    @media (max-width: $tablet) {
+      padding: 32px;
+    }
+  }
+
+  &__icon {
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -30,24 +58,54 @@
   &:first-child {
     padding-left: 0;
   }
+
   &:last-child {
     border-right: none;
     padding-right: 0;
   }
 
+  @media (max-width: $desktop) {
+    border-right: none;
+    border-bottom: 2px solid $c-light-violet;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 10px;
+
+    &:last-child {
+      border: none;
+      margin-bottom: 0;
+    }
+  }
+
   &__image {
     width: 55px;
     margin-bottom: 25px;
+
+    @media (max-width: $desktop) {
+      margin-bottom: 10px;
+    }
   }
 
   &__title {
     font-size: $fs-heading-three;
     font-weight: $fw-bold;
     margin-bottom: 15px;
+
+    @media (max-width: $desktop) {
+      font-size: $fs-heading-four;
+    }
+
+    @media (max-width: $phone) {
+      font-size: $fs-heading-five;
+    }
   }
 
   &__description {
     font-size: $fs-text-large;
     line-height: 150%;
+
+    @media (max-width: $desktop) {
+      margin-bottom: 25px;
+    }
   }
 }

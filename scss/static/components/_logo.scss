@@ -1,11 +1,23 @@
 .logo {
   width: 100%;
   max-width: 140px;
+  height: 32px;
 
-  &__text {
-    color: $c-logo;
+  &__container {
+    margin-bottom: 32px;
+  }
+
+  &--black {
+    fill: $c-logo;
     font-weight: $fw-black;
-    font-size: 30px;
+    font-size: $fs-heading-three;
     letter-spacing: 1px;
   }
+
+  &--white {
+    fill: $c-white;
+    font-size: $fs-heading-three;
+    font-weight: $fw-black;
+    letter-spacing: 1px;
+  } 
 }

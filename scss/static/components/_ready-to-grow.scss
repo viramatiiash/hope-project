@@ -1,19 +1,33 @@
-.ready-to-grow__blur {
-  width: 100%;
-  position: absolute;
-  z-index: -999;
-  max-height: 380px;
-  opacity: 0.9;
-}
-
 .ready-to-grow {
-  background: transparent;
+  padding-bottom: 128px;
+
+  background: radial-gradient(
+    ellipse at bottom,
+    rgb(207, 217, 255),
+    rgb(234, 255, 239),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
+
+  // background: linear-gradient(0deg, #cbd6ff, #e4ffe2, #f2fff1, #ffffff);
+
+  @media (max-width: $phone) {
+    text-align: center;
+    padding-bottom: 100px;
+
+    background: radial-gradient(
+      ellipse at bottom,
+      rgb(228, 233, 255),
+      rgb(239, 255, 243),
+      rgb(255, 255, 255),
+      rgb(255, 255, 255)
+    );
+  }
 
   &__wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 128px;
   }
 
   &__title {
@@ -23,10 +37,22 @@
     margin-bottom: 30px;
     max-width: 700px;
     text-align: center;
+
+    @media (max-width: $tablet) {
+      font-size: $fs-heading-three;
+    }
+
+    @media (max-width: $phone) {
+      font-size: $fs-heading-four;
+    }
   }
 
   &__description {
     margin-bottom: 30px;
+
+    @media (max-width: $desktop) {
+      text-align: center;
+    }
   }
 
   &__button {
