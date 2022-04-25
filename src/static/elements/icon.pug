@@ -1,8 +1,12 @@
-mixin icon(name, classes)
-  svg.icon(class=classes)
-    use(xlink:href='#icon-' + name)
+//- mixin icon(name, classes)
+//-   svg.icon(class=classes)
+//-     use(xlink:href='#icon-' + name)
 
 
 //- mixin iconFooter(name)
 //-   svg(class='social-media__icon social-media__icon--' +name)
 //-     use(xlink:href='../../../assets/icon/base.svg#icon-' +name)
+
+mixin icon(name, classes)
+  svg.icon(class=classes)
+    use(xlink:href='../../../assets/icon/symbol-defs.svg#icon-' +name)

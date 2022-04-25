@@ -1,0 +1,87 @@
+// * Stunning results styles
+.jt-stunning-results {
+  margin-bottom: 128px; //* To push other block below down / separate from each other
+  @media (max-width: $phone) {
+    margin-bottom: 64px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: $fs-heading-two;
+    font-weight: $fw-bold;
+    text-align: center;
+    line-height: 120%;
+    max-width: 670px;
+    margin-bottom: 50px;
+
+    @media (max-width: $tablet) {
+      font-size: $fs-heading-three;
+    }
+
+    @media (max-width: $phone) {
+      font-size: $fs-heading-four;
+    }
+  }
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: $desktop) {
+      flex-direction: column;
+    }
+  }
+}
+
+.jt-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px;
+  max-width: 400px;
+  margin-right: 25px;
+  line-height: 150%;
+  text-align: center;
+  border: 2px solid #d6e7ff; // * TODO: ask Vira to add color
+  border-radius: 10px;
+
+  @media (max-width: $desktop) {
+    margin-bottom: 25px;
+    margin-right: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    max-width: 820px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__description {
+    font-weight: $fw-bold;
+    margin-bottom: 25px;
+  }
+
+  &__image {
+    margin-bottom: 10px;
+    max-width: 55px;
+  }
+
+  &__title {
+    font-size: $fs-heading-five;
+    line-height: 150%;
+    font-weight: $fw-bold;
+  }
+
+  &__subtitle {
+    font-size: 12px; // * TODO: ask Vira to add
+  }
+}
