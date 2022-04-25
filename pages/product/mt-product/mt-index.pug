@@ -1,0 +1,45 @@
+include ./mt-data-driven
+include ./mt-track-project
+include ./mt-more-leads
+include ./mt-real-time
+
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Hope
+    link(rel="stylesheet" href="../../../index.css")
+  body
+    .container
+      +mt-data-driven({
+        class:'mt-content-img__wraper-shadowLeft',
+        subtitle:'Marketing insights',
+        title:'Data-driven client feedback',
+        text:'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.',
+        img:'./mt-assets/mt-data-driven.jpg'
+      })
+      +mt-data-driven({
+        class:'mt-content-img__wraper-reverse',
+        subtitle:'Time tracker',
+        title:'Track your project performance',
+        text:'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.',
+        img:'./mt-assets/mt-track-project.jpg'
+      })
+      +mt-data-driven({
+        class:'mt-content-img__wraper-shadowRight',
+        subtitle:'Lead Generation',
+        title:'More leads that convert',
+        text:'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.',
+        img:'./mt-assets/mt-more-leads.png'
+      })
+      +mt-data-driven({
+        class:'mt-content-img__wraper-reverse',
+        subtitle:'Remote teams',
+        title:'Real-time collaboration',
+        text:'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.',
+        img:'./mt-assets/mt-real-time.jpg'
+      })
+    
+
