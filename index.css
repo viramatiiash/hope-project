@@ -190,20 +190,19 @@
   line-height: 120%;
   max-width: 670px;
 }
-<<<<<<< HEAD
 
-=======
 @media (max-width: 1024px) {
   .jt-features__title {
     margin-bottom: 25px;
   }
 }
+
 @media (max-width: 480px) {
   .jt-features__title {
     font-size: 24px;
   }
 }
->>>>>>> main
+
 .jt-features__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -215,11 +214,16 @@
   background-color: #fdf0ff;
   border-radius: 15px;
 }
+
 @media (max-width: 1024px) {
   .jt-features__block {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
+
 @media (max-width: 768px) {
   .jt-features__block {
     padding: 32px;
@@ -239,9 +243,7 @@
   border-right: none;
   padding-right: 0;
 }
-<<<<<<< HEAD
 
-=======
 @media (max-width: 1024px) {
   .jt-block {
     border-right: none;
@@ -255,38 +257,35 @@
     margin-bottom: 0;
   }
 }
->>>>>>> main
+
 .jt-block__image {
   width: 55px;
   margin-bottom: 25px;
 }
-<<<<<<< HEAD
 
-=======
 @media (max-width: 1024px) {
   .jt-block__image {
     margin-bottom: 10px;
   }
 }
->>>>>>> main
+
 .jt-block__title {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 15px;
 }
-<<<<<<< HEAD
 
-=======
 @media (max-width: 480px) {
   .jt-block__title {
     font-size: 18px;
   }
 }
->>>>>>> main
+
 .jt-block__description {
   font-size: 18px;
   line-height: 150%;
 }
+
 @media (max-width: 1024px) {
   .jt-block__description {
     margin-bottom: 25px;
@@ -299,6 +298,7 @@
   background-position: center;
   background-position-y: -80px;
 }
+
 @media (max-width: 768px) {
   .ready-to-grow {
     text-align: center;
@@ -309,7 +309,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-<<<<<<< HEAD
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -317,11 +316,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 128px;
-=======
-  flex-direction: column;
-  align-items: center;
->>>>>>> main
 }
 
 .ready-to-grow__title {
@@ -332,20 +326,19 @@
   max-width: 700px;
   text-align: center;
 }
-<<<<<<< HEAD
 
-=======
 @media (max-width: 768px) {
   .ready-to-grow__title {
     font-size: 36px;
   }
 }
+
 @media (max-width: 480px) {
   .ready-to-grow__title {
     font-size: 24px;
   }
 }
->>>>>>> main
+
 .ready-to-grow__description {
   margin-bottom: 30px;
 }
@@ -626,24 +619,33 @@ li {
   padding-left: 20px;
   margin: 0 auto;
 }
-<<<<<<< HEAD
-/*# sourceMappingURL=index.css.map */
-=======
 
 .jt-analyze-sales__wrapper {
   margin-top: 130px;
   margin-bottom: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 @media (max-width: 1024px) {
   .jt-analyze-sales__wrapper {
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
   }
 }
+
 .jt-analyze-sales__uptitle {
+  background: -webkit-gradient(linear, left top, left bottom, from(#373FFF), to(#3ACAF8));
   background: linear-gradient(#373FFF, #3ACAF8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -653,69 +655,99 @@ li {
   margin-bottom: 20px;
   text-align: left;
 }
+
 @media (max-width: 1024px) {
   .jt-analyze-sales__uptitle {
     text-align: center;
   }
 }
+
 .jt-analyze-sales__title {
   font-size: 48px;
   font-weight: bold;
   line-height: 120%;
   margin-bottom: 30px;
 }
+
 @media (max-width: 480px) {
   .jt-analyze-sales__title {
     font-size: 36px;
   }
 }
+
 @media (max-width: 480px) {
   .jt-analyze-sales__title {
     font-size: 24px;
   }
 }
+
 .jt-analyze-sales__description {
   line-height: 150%;
 }
+
 @media (max-width: 1024px) {
   .jt-analyze-sales__description {
     margin-bottom: 30px;
   }
 }
+
 .jt-analyze-sales__block {
   max-width: 550px;
 }
+
 @media (max-width: 1024px) {
   .jt-analyze-sales__block {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
     max-width: fit-content;
   }
 }
+
 @media (max-width: 1024px) {
   .jt-analyze-sales__list {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
   }
 }
+
 @media (max-width: 768px) {
   .jt-analyze-sales__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
+
 .jt-analyze-sales__block:last-child {
   margin-right: 0;
 }
+
 .jt-analyze-sales__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 40px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .jt-analyze-sales__item:last-child {
   margin-bottom: 0;
 }
+
 @media (max-width: 1024px) {
   .jt-analyze-sales__item {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-right: 20px;
     margin-bottom: 0;
   }
@@ -723,6 +755,7 @@ li {
     margin-right: 0;
   }
 }
+
 @media (max-width: 1024px) and (max-width: 768px) {
   .jt-analyze-sales__item {
     margin-right: 0;
@@ -734,9 +767,15 @@ li {
 }
 
 .item__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   max-width: 72px;
   min-width: 72px;
   height: 72px;
@@ -744,30 +783,33 @@ li {
   border-radius: 50%;
   margin-right: 30px;
 }
+
 @media (max-width: 1024px) {
   .item__icon {
     margin-bottom: 30px;
     margin-right: 0;
   }
 }
+
 .item__image {
   max-width: 35px;
   max-height: 35px;
 }
+
 .item__title {
   font-size: 24px;
   font-weight: bold;
   line-height: 120%;
   margin-bottom: 10px;
 }
+
 @media (max-width: 480px) {
   .item__title {
     font-size: 18px;
   }
 }
+
 .item__description {
   line-height: 150%;
 }
-
 /*# sourceMappingURL=index.css.map */
->>>>>>> main

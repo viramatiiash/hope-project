@@ -191,6 +191,18 @@
   max-width: 670px;
 }
 
+@media (max-width: 1024px) {
+  .jt-features__title {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .jt-features__title {
+    font-size: 24px;
+  }
+}
+
 .jt-features__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -201,6 +213,21 @@
   padding: 64px;
   background-color: #fdf0ff;
   border-radius: 15px;
+}
+
+@media (max-width: 1024px) {
+  .jt-features__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .jt-features__block {
+    padding: 32px;
+  }
 }
 
 .jt-block {
@@ -217,9 +244,29 @@
   padding-right: 0;
 }
 
+@media (max-width: 1024px) {
+  .jt-block {
+    border-right: none;
+    border-bottom: 2px solid #E0E4FC;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+  .jt-block:last-child {
+    border: none;
+    margin-bottom: 0;
+  }
+}
+
 .jt-block__image {
   width: 55px;
   margin-bottom: 25px;
+}
+
+@media (max-width: 1024px) {
+  .jt-block__image {
+    margin-bottom: 10px;
+  }
 }
 
 .jt-block__title {
@@ -228,21 +275,34 @@
   margin-bottom: 15px;
 }
 
+@media (max-width: 480px) {
+  .jt-block__title {
+    font-size: 18px;
+  }
+}
+
 .jt-block__description {
   font-size: 18px;
   line-height: 150%;
 }
 
-.ready-to-grow__blur {
-  width: 100%;
-  position: absolute;
-  z-index: -999;
-  max-height: 380px;
-  opacity: 0.9;
+@media (max-width: 1024px) {
+  .jt-block__description {
+    margin-bottom: 25px;
+  }
 }
 
 .ready-to-grow {
-  background: transparent;
+  padding-bottom: 128px;
+  background-image: url(./../../../assets/ready-to-grow-blur.png);
+  background-position: center;
+  background-position-y: -80px;
+}
+
+@media (max-width: 768px) {
+  .ready-to-grow {
+    text-align: center;
+  }
 }
 
 .ready-to-grow__wrapper {
@@ -256,7 +316,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 128px;
 }
 
 .ready-to-grow__title {
@@ -266,6 +325,18 @@
   margin-bottom: 30px;
   max-width: 700px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .ready-to-grow__title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ready-to-grow__title {
+    font-size: 24px;
+  }
 }
 
 .ready-to-grow__description {
