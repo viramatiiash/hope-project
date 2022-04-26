@@ -26,7 +26,7 @@
         "../../scss/static/components/_footer.scss",
         "../../scss/_main.scss",
         "scss/_index.scss",
-        "scss/mt-product/_mt-data-driven.scss"
+        "scss/_mt-data-driven.scss"
     ],
     "names": [],
     "file": "product.css"
