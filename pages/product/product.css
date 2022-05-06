@@ -79,7 +79,7 @@
 .menu-btn__burger {
   width: 25px;
   height: 3px;
-  background: black;
+  background: #1D2130;
   border-radius: 5px;
   transition: all 0.5s ease-in-out;
 }
@@ -88,7 +88,7 @@
   position: absolute;
   width: 25px;
   height: 3px;
-  background: black;
+  background: #1D2130;
   border-radius: 5px;
   transition: all 0.5s ease-in-out;
 }
@@ -108,10 +108,28 @@
   transform: rotate(-45deg);
 }
 
+@media screen and (max-width: 1024px) {
+  .navigation {
+    background: linear-gradient(#373FFF, #3ACAF8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .navigation__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media screen and (max-width: 1024px) {
+  .navigation__list {
+    flex-direction: column;
+  }
 }
 .navigation__link {
   cursor: pointer;
@@ -121,8 +139,25 @@
   color: #1D2130;
   padding: 7px;
 }
+@media screen and (max-width: 1024px) {
+  .navigation__link {
+    margin-right: 0;
+    font-size: 18px;
+  }
+}
 .navigation__item {
   transition: all 0.35s ease-out;
+}
+@media screen and (max-width: 1024px) {
+  .navigation__item {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .navigation__item:last-child {
+    margin-bottom: 0;
+  }
 }
 .navigation__item:hover {
   transform: scale(1.1, 1.1);
@@ -305,6 +340,7 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
 }
 .header__wrapper {
   width: 100%;
@@ -314,6 +350,7 @@
   align-items: center;
 }
 .header__navigation {
+  transition: all 0.3s ease-in-out;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -321,7 +358,14 @@
 @media screen and (max-width: 1024px) {
   .header__navigation {
     display: none;
+    opacity: 0;
+    pointer-events: none;
   }
+}
+.header__navigation--show {
+  display: block;
+  opacity: 1;
+  pointer-events: all;
 }
 
 .footer {
@@ -583,6 +627,8 @@
 }
 @media (max-width: 1024px) {
   .jt-analyze-sales__block {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
     max-width: fit-content;
   }
 }
@@ -630,6 +676,8 @@
 }
 .jt-analyze-sales__icon {
   width: 30px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   margin-left: 5px;
 }
@@ -807,6 +855,8 @@ li {
   font-size: 24px;
   font-weight: bold;
   line-height: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 .mt-content-img__title {
@@ -893,6 +943,4 @@ li {
 }
 .sa-grow-sales__button {
   margin-right: 15px;
-}
-
-/*# sourceMappingURL=product.css.map */
+}/*# sourceMappingURL=product.css.map */
