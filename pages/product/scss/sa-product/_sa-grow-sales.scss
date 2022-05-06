@@ -1,0 +1,52 @@
+.sa-wrapper-grow {
+  width: 100%;
+  margin-top: 150px;
+  padding: 20px;
+  &:before {
+    content: '';
+    display: block;
+    width: 555px;
+    height: 555px;
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    right: 500px;
+    background: radial-gradient(183.9% 2719.65% at -49.5% -250%, #D798E1 17.55%, #9BFFA5 27.56%, #AED3FF 49.89%, #C9D4EF 56.53%, #CACFFA 65.69%);
+    opacity: .6;
+    filter: blur(100px);
+    @media (max-width: $desktop) {
+      bottom: 0;
+    }
+  }
+}
+
+.sa-grow-sales {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  &__image-block {
+    max-width: 615px;
+    margin-left: 80px;
+    z-index: 1;
+  }
+  &__text-block {
+    display: flex;
+    max-width: 575px;
+    flex-direction: column;
+  }
+  &__title {
+    font-size: $fs-heading-one;
+    color: $c-primary;
+    font-weight: $fw-bold;
+  }
+  &__text {
+    color: $c-primary;
+    margin: 25px 0 25px 0;
+    font-size: $fs-text-large;
+  }
+  &__button {
+    margin-right: 15px;
+  }
+}
