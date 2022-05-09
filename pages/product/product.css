@@ -183,32 +183,48 @@
   max-width: 670px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 1024px) {
   .jt-features__title {
     margin-bottom: 25px;
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 768px) {
   .jt-features__title {
     font-size: 36px;
   }
 }
+<<<<<<< HEAD
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 480px) {
   .jt-features__title {
     font-size: 24px;
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 .jt-features__block {
   display: flex;
   justify-content: space-between;
@@ -258,9 +274,13 @@
   padding-right: 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 1024px) {
   .jt-block {
     border-right: none;
@@ -275,57 +295,85 @@
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 .jt-block__image {
   width: 55px;
   margin-bottom: 25px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 1024px) {
   .jt-block__image {
     margin-bottom: 10px;
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 .jt-block__title {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 15px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 1024px) {
   .jt-block__title {
     font-size: 24px;
   }
 }
+<<<<<<< HEAD
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 480px) {
   .jt-block__title {
     font-size: 18px;
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 .jt-block__description {
   font-size: 18px;
   line-height: 150%;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 1024px) {
   .jt-block__description {
     margin-bottom: 25px;
@@ -335,6 +383,10 @@
 .ready-to-grow {
   padding-bottom: 128px;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
   background-image: url(./../../../assets/ready-to-grow-blur.png);
   background-position: center;
   background-position-y: -80px;
@@ -343,7 +395,11 @@
 @media (max-width: 768px) {
   .ready-to-grow {
     text-align: center;
+<<<<<<< HEAD
 =======
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
   background: radial-gradient(ellipse at bottom, rgb(207, 217, 255), rgb(234, 255, 239), rgb(255, 255, 255), rgb(255, 255, 255));
 }
 @media (max-width: 480px) {
@@ -351,12 +407,20 @@
     text-align: center;
     padding-bottom: 100px;
     background: radial-gradient(ellipse at bottom, rgb(228, 233, 255), rgb(239, 255, 243), rgb(255, 255, 255), rgb(255, 255, 255));
+<<<<<<< HEAD
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
   }
 }
 .ready-to-grow__wrapper {
   display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -364,10 +428,17 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+<<<<<<< HEAD
 =======
   flex-direction: column;
   align-items: center;
 >>>>>>> main
+=======
+
+  flex-direction: column;
+  align-items: center;
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 }
 .ready-to-grow__title {
   font-size: 48px;
@@ -378,27 +449,39 @@
   text-align: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 768px) {
   .ready-to-grow__title {
     font-size: 36px;
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 480px) {
   .ready-to-grow__title {
     font-size: 24px;
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 .ready-to-grow__description {
   margin-bottom: 30px;
 }
@@ -869,11 +952,19 @@ li {
 .mt-content-img__wraper {
   margin-top: 130px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin-bottom: 130px;
   display: -webkit-box;
   display: -ms-flexbox;
 =======
 >>>>>>> main
+=======
+
+  margin-bottom: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
   display: flex;
   align-items: flex-start;
 }

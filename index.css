@@ -194,32 +194,48 @@
   max-width: 670px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 1024px) {
   .jt-features__title {
     margin-bottom: 25px;
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 768px) {
   .jt-features__title {
     font-size: 36px;
   }
 }
+<<<<<<< HEAD
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 480px) {
   .jt-features__title {
     font-size: 24px;
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 .jt-features__block {
   display: flex;
   justify-content: space-between;
@@ -259,9 +275,13 @@
   padding-right: 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 1024px) {
   .jt-block {
     border-right: none;
@@ -276,49 +296,73 @@
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 .jt-block__image {
   width: 55px;
   margin-bottom: 25px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 1024px) {
   .jt-block__image {
     margin-bottom: 10px;
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 .jt-block__title {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 15px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 1024px) {
   .jt-block__title {
     font-size: 24px;
   }
 }
+<<<<<<< HEAD
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 480px) {
   .jt-block__title {
     font-size: 18px;
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 .jt-block__description {
   font-size: 18px;
   line-height: 150%;
@@ -335,11 +379,16 @@
   background: radial-gradient(ellipse at bottom, #cfd9ff, #eaffef, white, white);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 @media (max-width: 768px) {
 =======
 @media (max-width: 480px) {
 >>>>>>> main
+=======
+
+@media (max-width: 480px) {
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
   .ready-to-grow {
     text-align: center;
     padding-bottom: 100px;
@@ -349,6 +398,10 @@
 .ready-to-grow__wrapper {
   display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -356,10 +409,17 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+<<<<<<< HEAD
 =======
   flex-direction: column;
   align-items: center;
 >>>>>>> main
+=======
+
+  flex-direction: column;
+  align-items: center;
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 }
 .ready-to-grow__title {
   font-size: 48px;
@@ -370,9 +430,13 @@
   text-align: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 @media (max-width: 768px) {
   .ready-to-grow__title {
     font-size: 36px;
@@ -385,9 +449,13 @@
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> main
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 .ready-to-grow__description {
   margin-bottom: 30px;
 }
@@ -724,6 +792,7 @@
 }
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 svg {
   width: 100%;
 }
@@ -745,9 +814,16 @@ li {
   margin: 0 auto;
 }
 
+=======
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 .jt-analyze-sales__wrapper {
+
   margin-top: 130px;
   margin-bottom: 130px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
   display: -webkit-box;
   display: -ms-flexbox;
 =======
@@ -797,11 +873,17 @@ li {
   margin-bottom: 30px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 @media (max-width: 480px) {
 =======
 @media (max-width: 768px) {
 >>>>>>> main
+=======
+
+@media (max-width: 768px) {
+
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
   .jt-analyze-sales__title {
     font-size: 36px;
   }
@@ -950,8 +1032,13 @@ li {
   line-height: 150%;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*# sourceMappingURL=index.css.map */
 =======
+=======
+
+/*# sourceMappingURL=index.css.map */
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
 
 * {
   box-sizing: border-box;
@@ -1000,5 +1087,8 @@ li {
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 /*# sourceMappingURL=index.css.map */
 >>>>>>> main
+=======
+>>>>>>> d699cd376f01dc3e2a4b8cd9c8f1d4a386f40755
