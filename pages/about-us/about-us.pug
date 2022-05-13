@@ -3,7 +3,7 @@ extends ../../src/static/extends/layout
 
 
 block style 
-  link(rel="stylesheet" href="../index.css")
+  link(rel="stylesheet" href="./about-us.css")
 
 
 
@@ -17,3 +17,97 @@ block title
 
 
 block body
+  .conteiner
+    .gs-we-proud 
+      .gs-we-proud__heading-title We are proud of our products
+      .gs-we-proud__text-block 
+        |Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+        |tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+      .gs-we-proud__imege-block
+        .gs-we-proud__imege-block__block
+          img(src="./../../../assets/gs-image/first-image.png" alt="foto")
+        .gs-we-proud__imege-block__block
+          img(src="./../../../assets/gs-image/second-image.png" alt="foto")
+        .gs-we-proud__imege-block__block
+          img(src="./../../../assets/gs-image/third-image.png" alt="foto")
+      h3.gs-about-us__title
+        |About Us    
+      .gs-about-us__two-title 
+        |We are a team of data analysts
+    .gs-about-us
+      .gs-about-us__text-block
+        |Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod |
+        |tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At 
+        |vero eos et accusam et justo duo dolores et ea rebum.
+    .gs-our-block
+      .gs-our-block__goals
+        .gs-our-block__title 
+          |Our goals
+        .gs-our-block__two-title
+          |To upscale your business
+          |to the next level
+        .gs-our-block__text-block
+          |Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+      .gs-our-block__vision
+        .gs-our-block__title 
+          |Our Vision
+        .gs-our-block__two-title
+          |To upscale your business
+          |to the next level
+        .gs-our-block__text-block
+          |Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+    .gs-corporate-value.conteiner
+      .gs-corporate-value__two-title
+        |Our corporate values
+      .gs-corporate-value__text-block
+        |Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+      .gs-corporate-value__item
+        .gs-items-value 
+          .icon-block
+            +icon("like")
+          .item-title Best in Class
+          .item-text 
+            |Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+        .gs-items-value
+          .icon-block
+            +icon("authenticity", 'icons')
+          .item-title Autenticity
+          .item-text  
+            |Lorem ipsum dolor sit amet, consetetur sadipsci elitr, sed diam nonumy.
+        .gs-items-value
+          .icon-block
+            +icon("e-mail", 'icons')
+          .item-title Email Support
+          .item-text  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+        .gs-items-value.second-row
+          .icon-block
+            +icon("discounts", 'icons')
+          .item-title Discounts available
+          .item-text  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+        .gs-items-value.second-row
+          .icon-block
+            +icon("powerful", 'icons')
+          .item-title Powerful Marketing
+          .item-text  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+        .gs-items-value.second-row
+          .icon-block
+            +icon("inventory", 'icons')
+          .item-title Inventory management
+          .item-text  Lorem ipsum dolor sit amet, consetetur sadipscin elitr, sed diam nonumy.
+    .gs-our-team__wrapper.conteiner 
+      .gs-block-team 
+        .item-title Our talented Team
+        .item-text Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt   magni tempore velit saepe, voluptatem facilis ipsum.
+      .gs-block-team-item 
+        .block-foto 
+          img.teams(src="./../../../assets/gs-image/team-member-ceo.png" alt="foto")
+        .block-foto 
+          img.teams(src="./../../../assets/gs-image/team-member-cto.png" alt="foto")
+        .block-foto 
+          img.teams(src="./../../../assets/gs-image/team-member-marketing.png" alt="foto")
+        .block-foto 
+          img.teams(src="./../../../assets/gs-image/team-member-pm.png" alt="foto")
+        .block-foto 
+          img.teams(src="./../../../assets/gs-image/team-member-saler.png" alt="foto")
+        .block-foto 
+          img.teams(src="./../../../assets/gs-image/team-member-dl.png" alt="foto")
