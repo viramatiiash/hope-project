@@ -1,4 +1,10 @@
-include ../static/index
-include ./dv-pricing-plans
+extends ../static/extends/layout
 
-
+block style
+	link(rel="stylesheet", href="../../index.css")
+block title
+	title Pricing
+	
+block content
+		include ./dv-pricing-plans
+		include ./dv-faq

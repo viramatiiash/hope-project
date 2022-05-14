@@ -1033,6 +1033,77 @@ li {
   font-size: 12px;
 }
 
+.dv-pricing-plans__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dv-pricing-plans__title {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  max-width: 550px;
+  width: 100%;
+  padding: 0 20px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 110%;
+}
+.dv-pricing-plans__subtitle {
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  padding: 0 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+.dv-pricing-plans__buttons {
+  margin-top: 25px;
+  display: flex;
+  max-width: 420px;
+  max-height: 80px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #E0E4FC;
+}
+
+.dv-faq {
+  padding: 65px;
+  display: flex;
+  background-color: #f0f2fe;
+  border-radius: 24px;
+}
+.dv-faq__title {
+  max-width: 450px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+}
+.dv-faq__text {
+  max-width: 450px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 30px;
+}
+
+.toggle__label {
+  cursor: pointer;
+  max-width: fit-content;
+  width: 100%;
+  background-color: transparent;
+  padding: 15px 50px;
+}
+.toggle__label input[type=radio]:checked label {
+  background-color: #313852;
+}
+* {
+  border: 1px solid red;
+}
+
 .header {
   background-color: linear-gradient(#373FFF, #3ACAF8);
 }

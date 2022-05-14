@@ -1,0 +1,9 @@
+mixin card-content(args)
+  - let text = args.text || 'Default Text'
+
+  ul.dv-pricing-card__list 
+    each val in values.length ? values : ['There are no values']
+      li.dv-pricing-card__list-item
+        .dv-pricing-card__icon 
+        span.dv-pricing-card__text= val  
+

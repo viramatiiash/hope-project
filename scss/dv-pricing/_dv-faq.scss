@@ -1,0 +1,24 @@
+.dv-faq {
+  padding: 65px;
+  display: flex;
+  background-color: #f0f2fe;
+  border-radius: 24px;
+
+  &__title {
+    max-width: 450px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+  }
+
+  &__text {
+    max-width: 450px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 30px;
+  }
+}
