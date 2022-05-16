@@ -1,10 +1,21 @@
 extends ../static/extends/layout
+include ./dv-faq
+include ./dv-pricing-card/dv-pricing-card
+include ./dv-pricing-plans
 
 block style
-	link(rel="stylesheet", href="../../index.css")
+	link(rel="stylesheet" href="../../index.css")
 block title
 	title Pricing
-	
+
 block content
-		include ./dv-pricing-plans
-		include ./dv-faq
+	include ../../assets/icon/symbol-defs-pricing.svg
+	- const values = [{text: 'Home', link: '#'}, {text: 'Product', link: './src/sa-mt-product/product.pug'}, {text: 'Pricing', link: './src/dv-pricing/dv-index.pug'}, {text: 'About us', link: './src/gs-about-us/gs-index.pug'}, {text: 'Blog', link: './src/to-blog/to-index.pug'}, {text: 'Contact', link: './src/pi-contact/pi-index.pug'}]
+	+header
+	.content
+		.container
+			+pricing-plans()
+			+card()
+			+dv-faq()
+block script
+	script(src="../../index.js") 		

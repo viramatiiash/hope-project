@@ -1,3 +1,6 @@
-mixin icon(name)
-  svg(class='icon icon-' +name)
-    use(xlink:href='#icon-' +name)
+mixin icon(args)
+  -const classes = args.classes || ""
+  -const icon = args.icon || ""
+  
+  svg(class='icon icon-' +icon, class=classes)
+    use(xlink:href='#icon-' +icon)

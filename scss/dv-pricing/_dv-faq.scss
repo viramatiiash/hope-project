@@ -1,8 +1,18 @@
 .dv-faq {
+  margin-top: 130px;
   padding: 65px;
   display: flex;
-  background-color: #f0f2fe;
+  background-color: $c-light-blue;
   border-radius: 24px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: $tablet) {
+      flex-direction: column;
+    }
+  }
 
   &__title {
     max-width: 450px;
@@ -11,6 +21,10 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 120%;
+
+    @media screen and (max-width: $tablet) {
+      text-align: center;
+    }
   }
 
   &__text {
@@ -20,5 +34,10 @@
     font-weight: 400;
     line-height: 150%;
     margin-top: 30px;
+
+    @media screen and (max-width: $tablet) {
+      margin-bottom: 15px;
+      text-align: center;
+    }
   }
 }

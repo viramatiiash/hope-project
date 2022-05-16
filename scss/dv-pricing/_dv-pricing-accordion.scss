@@ -1,0 +1,45 @@
+.accordion-item {
+  max-width: 650px;
+  padding: 40px;
+  background-color: $c-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: $t-normal;
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
+
+  &__title-block {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+  }
+  &__button {
+    border: none;
+    outline: none;
+    background-color: $c-white;
+    cursor: pointer;
+  }
+  &__text {
+    max-height: 0px;
+    overflow: hidden;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    &--active {
+      margin-top: 15px;
+      max-height: 1500px;
+    }
+  }
+}

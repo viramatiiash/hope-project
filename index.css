@@ -683,8 +683,8 @@ template {
   border: none;
 }
 .input--black {
-  background-color: #2B2E3C;
-  color: #FFFFFF;
+  background-color: #2b2e3c;
+  color: #ffffff;
 }
 
 .button {
@@ -693,20 +693,20 @@ template {
   border: none;
 }
 .button--black {
-  background-color: #1D2130;
-  color: #FFFFFF;
+  background-color: #1d2130;
+  color: #ffffff;
 }
 .button--black:hover {
   background-color: #313852;
 }
 .button--white {
-  background-color: #FFFFFF;
-  color: #1D2130;
-  border: 1px solid #E0E4FC;
+  background-color: #ffffff;
+  color: #1d2130;
+  border: 1px solid #e0e4fc;
 }
 .button--white:hover {
-  background-color: #1D2130;
-  color: #FFFFFF;
+  background-color: #1d2130;
+  color: #ffffff;
 }
 
 .icon {
@@ -723,7 +723,7 @@ template {
   max-width: 140px;
 }
 .logo__text {
-  color: #1E1B1B;
+  color: #1e1b1b;
   font-weight: 900;
   font-size: 30px;
   letter-spacing: 1px;
@@ -786,7 +786,7 @@ template {
   margin-right: 25px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  color: #1D2130;
+  color: #1d2130;
   padding: 7px;
 }
 .navigation__item {
@@ -819,7 +819,7 @@ template {
 }
 
 .jt-block {
-  border-right: 2px solid #E0E4FC;
+  border-right: 2px solid #e0e4fc;
   padding: 0 25px;
 }
 .jt-block:first-child {
@@ -844,7 +844,7 @@ template {
 }
 
 .header {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 100%;
   height: 70px;
   border: 1px solid red;
@@ -924,7 +924,7 @@ li {
   display: flex;
 }
 .jt-analyze-sales__uptitle {
-  color: #6B7CFF;
+  color: #6b7cff;
   font-size: 16px;
   font-weight: bold;
   line-height: 120%;
@@ -1033,6 +1033,15 @@ li {
   font-size: 12px;
 }
 
+.dv-pricing-plans {
+  margin-top: 100px;
+}
+.dv-pricing-plans__wrapper {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .dv-pricing-plans__content {
   display: flex;
   flex-direction: column;
@@ -1049,6 +1058,7 @@ li {
   line-height: 110%;
 }
 .dv-pricing-plans__subtitle {
+  margin-top: 25px;
   text-align: center;
   max-width: 400px;
   width: 100%;
@@ -1060,18 +1070,31 @@ li {
 .dv-pricing-plans__buttons {
   margin-top: 25px;
   display: flex;
-  max-width: 420px;
+  max-width: fit-content;
   max-height: 80px;
   padding: 10px;
   border-radius: 20px;
-  background-color: #E0E4FC;
+  background-color: #e0e4fc;
+}
+.dv-pricing-plans__button--transparent {
+  background-color: transparent;
 }
 
 .dv-faq {
+  margin-top: 130px;
   padding: 65px;
   display: flex;
   background-color: #f0f2fe;
   border-radius: 24px;
+}
+.dv-faq__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .dv-faq__wrapper {
+    flex-direction: column;
+  }
 }
 .dv-faq__title {
   max-width: 450px;
@@ -1081,6 +1104,11 @@ li {
   font-size: 48px;
   line-height: 120%;
 }
+@media screen and (max-width: 768px) {
+  .dv-faq__title {
+    text-align: center;
+  }
+}
 .dv-faq__text {
   max-width: 450px;
   width: 100%;
@@ -1089,23 +1117,238 @@ li {
   line-height: 150%;
   margin-top: 30px;
 }
+@media screen and (max-width: 768px) {
+  .dv-faq__text {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+}
 
-.toggle__label {
+.dv-pricing-card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+@media screen and (max-width: 768px) {
+  .dv-pricing-card {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.dv-pricing-card__wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  max-height: 715px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding-bottom: 50px;
+  border: 4px solid transparent;
+}
+@media screen and (max-width: 1024px) {
+  .dv-pricing-card__wrapper {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dv-pricing-card__wrapper {
+    margin-bottom: 30px;
+    max-width: 400px;
+  }
+  .dv-pricing-card__wrapper:last-child {
+    margin-bottom: 0px;
+  }
+}
+.dv-pricing-card__wrapper:hover {
+  transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 4px solid #6b7cff;
+  background: rgb(215, 231, 249);
+  background: linear-gradient(175deg, rgb(215, 231, 249) 13.12%, rgb(213, 244, 236) 96%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.dv-pricing-card__wrapper:hover .icon-platinum,
+.dv-pricing-card__wrapper:hover .icon-regular,
+.dv-pricing-card__wrapper:hover .icon-standart {
+  color: #6b7cff;
+}
+
+.dv-pricing-card-top {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d8d8d8;
+}
+@media screen and (max-width: 1024px) {
+  .dv-pricing-card-top {
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dv-pricing-card-top {
+    padding-left: 50px;
+  }
+}
+.dv-pricing-card-top__icon-block {
+  width: 55px;
+  height: 55px;
+  background-color: #e6e6e6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dv-pricing-card-top__title-block {
+  margin-left: 25px;
+}
+.dv-pricing-card-top__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+}
+.dv-pricing-card-top__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.dv-pricing-card-content {
+  padding-left: 50px;
+}
+@media screen and (max-width: 1024px) {
+  .dv-pricing-card-content {
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dv-pricing-card-content {
+    padding-left: 50px;
+  }
+}
+.dv-pricing-card-content__list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+.dv-pricing-card-content__list-item:last-child {
+  margin-bottom: 0px;
+}
+.dv-pricing-card-content__icon-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  background-color: #d5f5ea;
+  border-radius: 50%;
+}
+.dv-pricing-card-content__icon {
+  width: 15px;
+  height: 15px;
+}
+.dv-pricing-card-content__item-text {
+  margin-left: 15px;
+}
+
+.dv-pricing-card-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dv-pricing-card-bottom__text {
+  margin-top: 30px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+@media screen and (max-width: 1024px) {
+  .dv-pricing-card-bottom__text {
+    padding-left: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dv-pricing-card-bottom__text {
+    padding-left: 50px;
+  }
+}
+.dv-pricing-card-bottom__price {
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+}
+.dv-pricing-card-bottom__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  opacity: 0.6;
+  margin-bottom: 25px;
+}
+
+.accordion-item {
+  max-width: 650px;
+  padding: 40px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 25px;
+  margin-bottom: 15px;
   cursor: pointer;
-  max-width: fit-content;
-  width: 100%;
-  background-color: transparent;
-  padding: 15px 50px;
+  transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.toggle__label input[type=radio]:checked label {
-  background-color: #313852;
+.accordion-item:last-child {
+  margin-bottom: 0px;
 }
-* {
-  border: 1px solid red;
+.accordion-item__title-block {
+  display: flex;
+  justify-content: space-between;
+}
+.accordion-item__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+}
+.accordion-item__button {
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.accordion-item__text {
+  max-height: 0px;
+  overflow: hidden;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.accordion-item__text--active {
+  margin-top: 15px;
+  max-height: 1500px;
+}
+
+.content {
+  backdrop-filter: blur(600px);
+  margin-top: 70px;
+  background: radial-gradient(ellipse at bottom, rgb(207, 217, 255), rgb(234, 255, 239), rgb(255, 255, 255), rgb(255, 255, 255));
 }
 
 .header {
-  background-color: linear-gradient(#373FFF, #3ACAF8);
+  background-color: linear-gradient(#373fff, #3acaf8);
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,13 @@
+mixin dv-pricing-card-bottom(args)
+  - const text = args.text || 'Default text'
+  - const price = args.price || 'Free'
+  - const subtitle = args.subtitle || 'Default text'
+
+  .dv-pricing-card-bottom
+    .dv-pricing-card-bottom__text= text 
+    .dv-pricing-card-bottom__price= price
+    span.dv-pricing-card-bottom__subtitle= args.subtitle 
+    +button({
+      text:"Get started",
+      type:"button"
+    })(class="button button--black")
