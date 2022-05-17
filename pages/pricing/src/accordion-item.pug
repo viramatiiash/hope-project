@@ -1,0 +1,10 @@
+mixin accordion-item(args)
+  - const title = args.title || "Default title"
+  - const text = args.text || "Default text"
+
+  li.accordion-item
+    .accordion-item__title-block
+      span.accordion-item__title= title
+      button(type='button').accordion-item__button
+        +icon-pricing({icon:"expander-1", classes: "js-icon-toggle"})
+    .accordion-item__text= text 

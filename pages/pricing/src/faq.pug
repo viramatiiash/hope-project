@@ -1,0 +1,25 @@
+include ./accordion-item.pug
+
+mixin dv-faq()
+  section.dv-faq
+    .dv-faq__wrapper
+      .dv-faq__content 
+        h2.dv-faq__title Frequestly Asked Questions
+        .dv-faq__text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
+      ul.dv-faq__accordion#js-dv-faq-accordion
+        +accordion-item({
+          title: "How do I grow my business?",
+          text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+        })  
+        +accordion-item({
+          title: "Can I cancel my subscription?",
+          text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+        }) 
+        +accordion-item({
+          title: "How do I contact the support?",
+          text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+        }) 
+        +accordion-item({
+          title: "Is a credit card required?",
+          text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+        }) 
