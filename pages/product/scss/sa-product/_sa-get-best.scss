@@ -1,0 +1,50 @@
+.sa-get-best {
+  margin-top: 150px;
+  padding: 130px 80px 0 0;
+  background: $c-radial-gradient;
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: $fs-heading-two;
+    font-weight: $fw-bold;
+    color: $c-primary;
+    margin-left: 80px;
+  }
+  &__icon {
+    width: 56px;
+    height: 56px;
+  }
+  &__block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 95px;
+    background-color: $c-white;
+    margin-left: 0;
+    border-radius: 0 50px 0 0;
+    padding: 35px 20px 95px 20px;
+  }
+  &__component {
+    max-width: 380px;
+    margin-top: 60px;
+  }
+  &__subtitle {
+    font-size: $fs-label;
+    font-weight: $fw-bold;
+    margin-top: 15px;
+    color: $c-primary;
+  }
+  &__text {
+    font-size: $fs-base;
+    color: $c-primary;
+    margin-top: 15px;
+  }
+}
+
+.sa-icon {
+  width: 100%;
+  height: 100%;
+}
