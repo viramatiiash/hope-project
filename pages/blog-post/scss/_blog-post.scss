@@ -1,11 +1,20 @@
 .pi-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 170px;
   text-align: center;
+  
+
+  background: radial-gradient(
+    circle at left,
+    rgb(228, 233, 254),
+    rgb(234, 255, 239),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
 }
 
-.pi-posts {
+.pi-post {
   width: 100%;
   max-width: 1440px;
   text-align: center;
@@ -13,9 +22,10 @@
   &__title {
     font-size: $fs-heading-one;
     font-family: $ff-main;
-    // letter-spacing: -2px;
+
     font-weight: $fw-bold;
     display: block;
+    margin-bottom: 25px;
   }
 
   &__text {

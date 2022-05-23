@@ -848,25 +848,27 @@ li {
 .pi-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 170px;
   text-align: center;
+  background: radial-gradient(circle at left, rgb(228, 233, 254), rgb(234, 255, 239), rgb(255, 255, 255), rgb(255, 255, 255));
 }
 
-.pi-posts {
+.pi-post {
   width: 100%;
   max-width: 1440px;
   text-align: center;
 }
-.pi-posts__title {
+.pi-post__title {
   font-size: 56px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   display: block;
+  margin-bottom: 25px;
 }
-.pi-posts__text {
+.pi-post__text {
   margin-bottom: 64px;
 }
-.pi-posts__banner {
+.pi-post__banner {
   width: 100%;
   margin: 0 auto;
   max-width: 1280px;
