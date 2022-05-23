@@ -849,12 +849,22 @@ li {
   display: flex;
   justify-content: center;
   margin-top: 100px;
+  text-align: center;
 }
 
 .pi-posts {
-  width: 100px;
+  width: 100%;
   max-width: 1440px;
   text-align: center;
+}
+.pi-posts__title {
+  font-size: 56px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  display: block;
+}
+.pi-posts__text {
+  margin-bottom: 64px;
 }
 .pi-posts__banner {
   width: 100%;

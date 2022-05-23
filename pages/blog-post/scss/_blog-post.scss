@@ -1,14 +1,26 @@
-.pi-wrapper{
+.pi-wrapper {
   display: flex;
   justify-content: center;
   margin-top: 100px;
+  text-align: center;
 }
 
 .pi-posts {
-  width: 100px;
+  width: 100%;
   max-width: 1440px;
-  // height: 3535px;
   text-align: center;
+
+  &__title {
+    font-size: $fs-heading-one;
+    font-family: $ff-main;
+    // letter-spacing: -2px;
+    font-weight: $fw-bold;
+    display: block;
+  }
+
+  &__text {
+    margin-bottom: 64px;
+  }
   &__banner {
     width: 100%;
     margin: 0 auto;
