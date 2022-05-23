@@ -1,0 +1,11 @@
+.pi-posts {
+  width: 1440px;
+  height: 3535px;
+  text-align: center;
+  
+  &__banner {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+}

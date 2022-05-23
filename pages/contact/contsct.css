@@ -898,23 +898,20 @@ li {
 }
 .pi-form__input {
   margin-bottom: 15px;
-  border-radius: 10px;
   padding-left: 20px;
-  cursor: pointer;
   padding-right: 20px;
   height: 65px;
-  border: none;
 }
 .pi-form__input:invalid {
   border: 1px solid red;
 }
-.pi-form__input--mod {
+.pi-form__input__mod {
   border: 1px solid white;
   margin-bottom: 15px;
   margin-right: 30px;
   width: 295px;
 }
-.pi-form__input--mod:last-child {
+.pi-form__input__mod:last-child {
   margin-right: 0;
 }
 .pi-form__input__area {
@@ -922,7 +919,6 @@ li {
 }
 .pi-form__button {
   background-color: #1d2130;
-  color: white;
 }
 .pi-form__contact {
   font-size: 24px;
@@ -946,4 +942,4 @@ li {
   border: 3px solid red;
 }
 
-/*# sourceMappingURL=contact.css.map */
+/*# sourceMappingURL=contsct.css.map */

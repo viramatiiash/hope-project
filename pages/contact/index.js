@@ -1,0 +1,1 @@
+import { contact } from './js/contact';
