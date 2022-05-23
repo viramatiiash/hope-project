@@ -845,11 +845,16 @@ li {
   margin: 0 auto;
 }
 
-.pi-posts {
-  width: 1440px;
-  height: 3535px;
-  text-align: center;
+.pi-wrapper {
+  display: flex;
+  justify-content: center;
   margin-top: 100px;
+}
+
+.pi-posts {
+  width: 100px;
+  max-width: 1440px;
+  text-align: center;
 }
 .pi-posts__banner {
   width: 100%;

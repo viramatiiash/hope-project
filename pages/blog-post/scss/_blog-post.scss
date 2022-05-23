@@ -1,11 +1,14 @@
-.pi-posts {
-  width: 1440px;
-  height: 3535px;
-  text-align: center;
-
-
+.pi-wrapper{
+  display: flex;
+  justify-content: center;
   margin-top: 100px;
-  
+}
+
+.pi-posts {
+  width: 100px;
+  max-width: 1440px;
+  // height: 3535px;
+  text-align: center;
   &__banner {
     width: 100%;
     margin: 0 auto;
