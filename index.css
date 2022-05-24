@@ -12,6 +12,7 @@
 .button {
   padding: 15px 40px;
   border-radius: 15px;
+  cursor: pointer;
   border: none;
 }
 .button--black {
@@ -141,6 +142,7 @@
   .navigation__list {
     flex-direction: column;
   }
+
 }
 .navigation__link {
   cursor: pointer;
@@ -150,6 +152,11 @@
   color: #1D2130;
   padding: 7px;
 }
+
+.navigation__item {
+  transition: all 0.35s ease-out;
+}
+
 @media screen and (max-width: 1024px) {
   .navigation__link {
     margin-right: 0;
@@ -170,6 +177,7 @@
     margin-bottom: 0;
   }
 }
+
 .navigation__item:hover {
   transform: scale(1.1, 1.1);
 }
@@ -365,8 +373,15 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__navigation {
+    display: none;
+  }
+
 .header__button {
   margin-right: 20px;
+
 }
 
 .footer {

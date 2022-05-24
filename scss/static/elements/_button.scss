@@ -1,6 +1,7 @@
 .button {
   padding: 15px 40px;
   border-radius: 15px;
+  cursor: pointer;
   border: none;
   &--black {
     background-color: $c-primary;
