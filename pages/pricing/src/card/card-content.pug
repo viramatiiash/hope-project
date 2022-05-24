@@ -1,0 +1,9 @@
+mixin dv-pricing-card-content(args)
+  .dv-pricing-card-content
+    ul.dv-pricing-card-content__list 
+      each val in args 
+        li.dv-pricing-card-content__list-item 
+          .dv-pricing-card-content__icon-block
+            .dv-pricing-card-content__icon
+              img(src="../../assets/icon/checked.svg" alt="checked")
+          span.dv-pricing-card-content__item-text= val  

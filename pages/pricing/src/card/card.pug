@@ -1,0 +1,59 @@
+include ./card-top
+include ./card-content
+include ./card-bottom
+
+mixin card()
+  .dv-pricing-card
+    .dv-pricing-card__wrapper
+      +dv-pricing-card-top({
+        title: "Regular",
+        subtitle: "Starter Plan",
+        icon: 'Group-2009'
+      })
+      +dv-pricing-card-content([
+        "Limited Projects",
+        "Regular Support Business",
+        "1 month Free Trial",
+        "3GB storage",
+        "Ads Preview"
+      ])
+      +dv-pricing-card-bottom({
+        text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+        subtitle: "For Limited Period"
+      })
+    .dv-pricing-card__wrapper
+      +dv-pricing-card-top({
+        title: "Plantinum",
+        subtitle: "For the best results",
+        icon: 'Group-2010'
+      })
+      +dv-pricing-card-content([
+        "Limited Projects",
+        "Regular Support Business",
+        "1 month Free Trial",
+        "3GB storage",
+        "Ads Preview"
+      ])
+      +dv-pricing-card-bottom({
+        text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+        price: "$342",
+        subtitle: "For Limited Period"
+      })
+    .dv-pricing-card__wrapper
+      +dv-pricing-card-top({
+        title: "Standard",
+        subtitle: "Most popular",
+        icon: 'Icon-31'
+      })
+      +dv-pricing-card-content([
+        "Limited Projects",
+        "Regular Support Business",
+        "1 month Free Trial",
+        "3GB storage",
+        "Ads Preview"
+      ])
+      +dv-pricing-card-bottom({
+        text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+        price: "$234",
+        subtitle: "Billing Monthly"
+      })    

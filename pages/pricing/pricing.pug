@@ -1,8 +1,13 @@
 extends ../../src/static/extends/layout
+include ./src/faq
+include ./src/card/card
+include ./src/plans
+include ./src/icon
 
 
 block style 
-  link(rel="stylesheet" href="../index.css")
+  link(rel="stylesheet" href="../../index.css")
+  link(rel="stylesheet" href="../pricing/pricing.css")
 
 
 
@@ -16,6 +21,12 @@ block title
 
 
 block body
+  .content
+    .container
+      +pricing-plans()
+      +card()
+      +dv-faq()
 
-
+block script 
+  script(src="../../index.js") 
 
