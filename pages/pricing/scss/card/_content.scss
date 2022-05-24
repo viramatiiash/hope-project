@@ -1,0 +1,39 @@
+.dv-pricing-card-content {
+  padding-left: 50px;
+
+  @media screen and (max-width: $desktop) {
+    padding-left: 15px;
+  }
+
+  @media screen and (max-width: $tablet) {
+    padding-left: 50px;
+  }
+
+  &__list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+  &__icon-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #d5f5ea;
+    border-radius: 50%;
+  }
+
+  &__icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  &__item-text {
+    margin-left: 15px;
+  }
+}

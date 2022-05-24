@@ -1,7 +1,7 @@
 mixin navigation(list)
   - const navClass = "navigation"
 
-  nav(class= navClass) 
+  nav(class= navClass)#js-navigation 
     ul(class= navClass + "__list") 
       each item in list 
         li(class= navClass + "__item")

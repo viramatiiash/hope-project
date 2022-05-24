@@ -4,9 +4,17 @@
   padding-bottom: 100px;
 
   &__wrapper {
+    width: 100%;
     padding-top: 64px;
     padding-bottom: 48px;
     @include flexSpaceBetween;
+
+    @media screen and (max-width: $desktop) {
+      @include flexVerticalCenter;
+      padding: 0;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
   }
 
   &__block-container {
@@ -15,11 +23,24 @@
     height: 180px;
     max-width: 740px;
     margin-right: 64px;
+
+    @media screen and (max-width: $desktop) {
+      @include flexVerticalCenter;
+      margin: 0;
+      height: 100%;
+      margin-bottom: 40px;
+    }
   }
 
   &__block {
     @include flexVerticalSpace;
     line-height: 30px;
+    margin-bottom: 60px;
+
+    @media screen and (max-width: $desktop) {
+      align-items: center;
+      margin-bottom: 60px;
+    }
   }
 
   &__title {
@@ -35,20 +56,33 @@
 
   &__subscribe {
     width: 100%;
-    max-width: 366px;
+    max-width: 367px;
     max-height: 163px;
-    @include flexVerticalSpace;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: $desktop) {
+      display: flex;
+      text-align: center;
+      margin-bottom: 40px;
+    }
   }
 
   &__border {
+    width: 100%;
     border: 1px solid $c-copyright;
     max-width: 1280px;
     margin: 0 auto;
+
+    @media screen and (max-width: $desktop) {
+      border: none;
+    }
   }
 }
 
 .newsletter {
   @include flexVerticalSpace;
+  width: 100%;
 
   &__name {
     color: $c-white;
@@ -57,7 +91,16 @@
 
   &__input-container {
     display: flex;
+    justify-content: center;
     position: relative;
+    padding-right: 20px;
+
+    @media screen and (max-width: 400px) {
+      position: static;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
   }
 
   &__input {
@@ -68,11 +111,22 @@
     border-radius: 10px;
     background-color: $c-input-dark;
     border: none;
+    outline: none;
+
+    @media screen and (max-width: 400px) {
+      margin-bottom: 20px;
+    }
   }
 
   &__button {
     position: absolute;
-    transform: translateX(160%);
+    transform: translateX(110px);
+
+    @media screen and (max-width: 400px) {
+      position: static;
+      transform: none;
+      align-self: center;
+    }
   }
 }
 
@@ -87,12 +141,27 @@
   @include flexAbsoluteCenter;
   background-color: $c-primary;
 
+  @media screen and (max-width: 400px) {
+    position: static;
+    left: 0;
+    transform: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+
   &__copyright-container {
     color: $c-copyright;
     font-size: $fs-job-title;
     width: 100%;
     max-width: 146px;
     margin-right: 30px;
+
+    @media screen and (max-width: 400px) {
+      margin: 0;
+      margin-bottom: 20px;
+    }
   }
 
   &__networks-container {

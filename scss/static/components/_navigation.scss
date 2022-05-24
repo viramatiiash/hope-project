@@ -1,6 +1,33 @@
 .navigation {
+  transition: all 6s ease-in-out;
+  
+  @media screen and (max-width: $desktop) {
+    background: $c-linear-gradient;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+  }
+
+  &--show {
+        display:flex;
+        opacity: 1;
+        pointer-events: all;
+        z-index: 10;
+  }
+
   &__list {
     @include flexSpaceBetween;
+
+    @media screen and (max-width: $desktop) {
+      flex-direction: column;
+    }
   }
 
   &__link {
@@ -10,10 +37,27 @@
     font-size: $fs-base;
     color: $c-primary;
     padding: 7px;
+
+    @media screen and (max-width: $desktop) {
+      margin-right: 0;
+      font-size: $fs-text-large;
+    }
   }
 
   &__item {
     transition: all 0.35s ease-out;
+
+    @media screen and (max-width: $desktop) {
+      margin-right: 0;
+      margin-bottom: 20px;
+      
+    }
+  }
+
+  &__item:last-child {
+    @media screen and (max-width: $desktop) {
+      margin-bottom: 0;
+    }
   }
 
   &__item:hover {

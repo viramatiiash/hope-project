@@ -2,17 +2,42 @@ extends ../../src/static/extends/layout
 
 
 block style 
-  link(rel="stylesheet" href="../index.css")
-
-
-
+  link(rel="stylesheet" href="./contact.css")
 
 
 block title 
-  title Contact
-
-
-
-
+  |contact
 
 block body
+  .pi-page
+    h1.pi-page-title Get in touch with us
+    .pi-page-contact
+      form.pi-form(action="" method="post" id="js-form")
+        .pi-form__items
+          h4.pi-page-subtitle Drop us a message
+          p.pi-page-text We will get back to you as soon as possible
+        .pi-form__block
+          input.pi-form__input.pi-form__input--mod(type="text",requared , placeholder="Full Name")
+          input.pi-form__input.pi-form__input--mod(type="text", requared,placeholder="Company Name")
+        input.pi-form__input(type="email",requared, placeholder="Work Email")
+        input.pi-form__input(type="text" placeholder="Subject")
+        textarea.pi-form__input__area(name="area" rows="4" cols="50" placeholder="Message")
+        button.pi-form__button
+          span Send
+      .pi-form__contact
+        .pi-form__contact-item
+          .pi-form__contact-image
+            +icon('icon-logo', 'pi-page__icon')
+            a(href="#") +1800145276
+            p Free support
+        .pi-form__contact-items
+          .pi-form__contact-image
+            +icon('', 'pi-icon')
+            a.pi-form__item(href="#") finsweet@gmail.com
+            p Help Email support
+        .pi-form__contact-items
+          .pi-form__contact-image
+            +icon('', 'pi-icon')
+            a(href="#") sales@finsweet.com
+            p Sales Enquiry 
+  script(defer, type="module" src="./index.js")              

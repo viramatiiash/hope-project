@@ -1,0 +1,17 @@
+@import './card/index';
+@import './faq';
+@import './accordion';
+@import './plans';
+
+
+.content {
+  backdrop-filter: blur(600px);
+  margin-top: 70px;
+  background: radial-gradient(
+    ellipse at bottom,
+    rgb(207, 217, 255),
+    rgb(234, 255, 239),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
+}

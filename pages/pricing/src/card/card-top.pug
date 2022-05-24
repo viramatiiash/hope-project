@@ -1,0 +1,11 @@
+mixin dv-pricing-card-top(args)
+  - const icon = args.icon || ""
+  - const title = args.title || "Default title"
+  - const subtitle = args.subtitle || "Default subtitle"
+
+  .dv-pricing-card-top
+    .dv-pricing-card-top__icon-block 
+      +icon-pricing({icon, classes: 'js-test'})
+    .dv-pricing-card-top__title-block 
+      h3.dv-pricing-card-top__title= title
+      span.dv-pricing-card-top__subtitle= subtitle 
