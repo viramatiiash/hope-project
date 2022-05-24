@@ -1,0 +1,40 @@
+.dv-pricing-card-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  &__text {
+    margin-top: 30px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+
+    @media screen and (max-width: $desktop) {
+      padding-left: 25px;
+    }
+
+    @media screen and (max-width: $tablet) {
+      padding-left: 50px;
+    }
+  }
+  &__price {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+  }
+  &__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    opacity: 0.6;
+    margin-bottom: 25px;
+  }
+}

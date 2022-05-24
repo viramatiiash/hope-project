@@ -1,0 +1,120 @@
+.pi-page {
+  margin: 160px auto 130px auto;
+  text-align: center;
+  color: $c-primary;
+  display: block;
+  width: 1330px;
+  height: 850px;
+  font-family: $ff-main;
+  // outline-style: 0;
+  // text-decoration: none;
+
+  background: radial-gradient(
+    circle farthest-corner at 100px 50px,
+    rgb(228, 233, 254),
+    rgb(234, 255, 239),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
+
+  &__icon {
+    height: 100px;
+    width: 100px;
+  }
+
+  &-title {
+    font-size: $fs-heading-one;
+    font-family: $ff-main;
+    letter-spacing: -2px;
+    font-weight: bolder;
+  }
+
+  &-subtitle {
+    font-size: $fs-heading-three;
+    letter-spacing: -1.4px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+  }
+
+  &-text {
+    letter-spacing: 0.9px;
+    padding-bottom: 50px;
+  }
+
+  &-contact {
+    justify-content: space-between;
+    background-color: #f0f2fe;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    text-align: start;
+    margin-left: 50px;
+    margin-top: 40px;
+    display: flex;
+  }
+}
+
+.pi-form {
+  flex-direction: column;
+  margin-bottom: 64px;
+  border-radius: 10px;
+  margin-left: 64px;
+  margin-top: 64px;
+  display: flex;
+  height: 595px;
+  width: 620px;
+
+  &__input {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding-left: 20px;
+    cursor: pointer;
+    padding-right: 20px;
+    height: 65px;
+    border: none;
+    &:invalid {
+      border: 1px solid red;
+    }
+
+    &--mod {
+      border: 1px solid white;
+      margin-bottom: 15px;
+      margin-right: 30px;
+      width: 295px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &__area {
+      height: 150px;
+    }
+  }
+  &__button {
+    background-color: #1d2130;
+    color: white;
+  }
+
+  &__contact {
+    font-size: $fs-heading-four;
+    letter-spacing: -2px;
+    margin-left: 135px;
+    margin-top: 200px;
+    color: $c-primary;
+    font-size: large;
+    height: 250px;
+    width: 300px;
+    &__item {
+      color: $c-primary;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    &:first-child {
+      letter-spacing: 5px;
+    }
+  }
+  .error {
+    border: 3px solid red;
+  }
+}

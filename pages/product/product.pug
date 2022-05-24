@@ -21,15 +21,61 @@ block body
   .container
     //- Suprunenko Block
     .sa-wrapper-grow 
+      //- Grow sales
       .sa-grow-sales
         .sa-grow-sales__text-block
           h1.sa-grow-sales__title Grow your Sales and Services
           .sa-grow-sales__text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          //- Buttons
           .sa-grow-sales__buttons
-            +button({text:'Get Started',type:'button'})(class='button button--black sa-grow-sales__button')
-            +button({text:'Contact us',type:'button'})(class='button button--white')
+            +button({text:'Get Started',type:'button'})(class='button button--black sa-grow-sales__buttons')
+            +button({text:'Contact us',type:'button'})(class='button button--white sa-grow-sales__buttons')
+        //- Dashboard
         .sa-grow-sales__image-block
-          img(src="../../assets/dashboard.png", alt="dashbord").sa-grow-sales__image
+          img(src="../../assets/dashboard.png" alt="dashboard").sa-grow-sales__image
+    //- Get best
+    .sa-get-best 
+      //- Title
+      h2.sa-get-best__title Get the best out of your company with our service
+      //- Block
+      .sa-get-best__block 
+        //- Components
+        //- 1
+        .sa-get-best__component
+          .sa-get-best__icon 
+            +icon('Icon-7', 'sa-icon')
+          .sa-get-best__subtitle Security and privacy
+          .sa-get-best__text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+        //- 2
+        .sa-get-best__component 
+          .sa-get-best__icon 
+            +icon('Icon-8', 'sa-icon')
+          .sa-get-best__subtitle Built-in AI features
+          .sa-get-best__text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+        //- 3
+        .sa-get-best__component 
+          .sa-get-best__icon 
+            +icon('Icon-9', 'sa-icon')
+          .sa-get-best__subtitle Collaborate with others
+          .sa-get-best__text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+        //- 4
+        .sa-get-best__component 
+          .sa-get-best__icon 
+            +icon('Icon-10', 'sa-icon')
+          .sa-get-best__subtitle Real time sync
+          .sa-get-best__text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+        //- 5
+        .sa-get-best__component 
+          .sa-get-best__icon 
+            +icon('Icon-11', 'sa-icon')
+          .sa-get-best__subtitle Built-in AI features
+          .sa-get-best__text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+        //- 6
+        .sa-get-best__component 
+          .sa-get-best__icon 
+            +icon('Icon-12', 'sa-icon')
+          .sa-get-best__subtitle Easy notes organization
+          .sa-get-best__text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
     //- Mashtaler Block
     +mt-data-driven({
       class:'mt-content-img__wraper-shadowLeft',
@@ -59,5 +105,5 @@ block body
       text:'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.',
       img:'/pages/product/mt-product/mt-assets/mt-real-time.jpg'
     })
-
   +features
+

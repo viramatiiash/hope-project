@@ -3,17 +3,18 @@ extends ../../src/static/extends/layout
 
 
 block style 
-  link(rel="stylesheet" href="../index.css")
-
-
-
+  link(rel="stylesheet" href="./blog-post.css")
 
 
 block title 
   title Blog post
 
 
-
-
-
 block body
+  .pi-wrapper
+    .pi-post 
+      h2.pi-post__title  New invoicing features to help you<br>get paid faster
+      p.pi-post__text Luke Matthews| Nowember 8, 2021
+      .pi-posts__banner
+        img(src="./image/banner.jpg" alt="banner")
+

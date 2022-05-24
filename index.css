@@ -13,6 +13,7 @@
 .button {
   padding: 15px 40px;
   border-radius: 15px;
+  cursor: pointer;
   border: none;
 }
 
@@ -193,6 +194,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+
 }
 
 .navigation__link {
@@ -203,6 +205,12 @@
   color: #1D2130;
   padding: 7px;
 }
+
+
+.navigation__item {
+  transition: all 0.35s ease-out;
+}
+
 
 @media screen and (max-width: 1024px) {
   .navigation__link {
@@ -490,8 +498,15 @@
           align-items: center;
 }
 
+
+@media screen and (max-width: 1024px) {
+  .header__navigation {
+    display: none;
+  }
+
 .header__button {
   margin-right: 20px;
+
 }
 
 .footer {

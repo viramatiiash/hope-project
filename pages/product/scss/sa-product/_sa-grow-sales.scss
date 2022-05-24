@@ -22,13 +22,14 @@
 
 .sa-grow-sales {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   max-width: 1280px;
   margin: 0 auto;
   &__image-block {
     max-width: 615px;
-    margin-left: 80px;
+    margin-top: 15px;
     z-index: 1;
   }
   &__text-block {
@@ -37,6 +38,7 @@
     flex-direction: column;
   }
   &__title {
+    z-index: 1;
     font-size: $fs-heading-one;
     color: $c-primary;
     font-weight: $fw-bold;
@@ -45,8 +47,13 @@
     color: $c-primary;
     margin: 25px 0 25px 0;
     font-size: $fs-text-large;
+    z-index: 1;
   }
-  &__button {
+  &__buttons {
+    display: flex;
+    flex-wrap: wrap;
     margin-right: 15px;
+    margin-top: 10px;
+    z-index: 1;
   }
 }

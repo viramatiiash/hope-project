@@ -1,0 +1,39 @@
+.pi-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 170px;
+  text-align: center;
+  
+
+  background: radial-gradient(
+    circle at left,
+    rgb(228, 233, 254),
+    rgb(234, 255, 239),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
+}
+
+.pi-post {
+  width: 100%;
+  max-width: 1440px;
+  text-align: center;
+
+  &__title {
+    font-size: $fs-heading-one;
+    font-family: $ff-main;
+
+    font-weight: $fw-bold;
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    margin-bottom: 64px;
+  }
+  &__banner {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+}

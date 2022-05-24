@@ -1,0 +1,6 @@
+mixin icon-pricing(args)
+  -const classes = args.classes || ""
+  -const icon = args.icon || ""
+  
+  svg(class='icon icon-' +icon, class=classes)
+    use(xlink:href='#icon-' +icon)
