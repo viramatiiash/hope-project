@@ -845,23 +845,30 @@ li {
   margin: 0 auto;
 }
 
-.pi-posts {
-  width: 1440px;
-  height: 3535px;
+.pi-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 170px;
   text-align: center;
-}
-.pi-posts__banner {
-  width: 100%;
-  margin: 0 auto;
-  max-width: 1280px;
+  background: radial-gradient(circle at left, rgb(228, 233, 254), rgb(234, 255, 239), rgb(255, 255, 255), rgb(255, 255, 255));
 }
 
-.pi-posts {
-  width: 1440px;
-  height: 3535px;
+.pi-post {
+  width: 100%;
+  max-width: 1440px;
   text-align: center;
 }
-.pi-posts__banner {
+.pi-post__title {
+  font-size: 56px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 25px;
+}
+.pi-post__text {
+  margin-bottom: 64px;
+}
+.pi-post__banner {
   width: 100%;
   margin: 0 auto;
   max-width: 1280px;
